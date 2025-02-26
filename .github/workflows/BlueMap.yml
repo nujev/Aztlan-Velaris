@@ -1,0 +1,31 @@
+name: Crear Mapa de Minecraft con BlueMap
+run-name: Crean Mapa 🚀
+on: 
+  push:
+    branches: [ feature/gh-action ]
+jobs:
+  Creando-Mapa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Instalar BlueMap CLI
+        uses: actions/checkout@v4
+      - name: Descargar última versión de BlueMap
+        run: |
+          # Obtener la URL del último release que contiene la palabra "cli"
+          latest_release=$(curl -s https://api.github.com/repos/BlueMap-Minecraft/BlueMap/releases/latest | jq -r '.assets[] | select(.name | contains("cli")) | .browser_download_url')
+          
+          # Verificar si se encontró un release con la palabra "cli"
+          if [ -z "$latest_release" ]; then
+            echo "No se encontró un release con la palabra 'cli'"
+            exit 1
+          fi
+          
+          # Descargar el archivo del release
+          curl -L -o bluemap-cli-latest.jar $latest_release
+          
+          # Descomprimir el archivo descargado
+          #unzip bluemap-cli-latest.zip -d bluemap
+      - name: Crear Mapa
+        run: |
+          echo "Creando Mapa"
+          java -jar bluemap-cli-latest.jar -r
