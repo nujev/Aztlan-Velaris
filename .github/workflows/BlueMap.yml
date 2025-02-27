@@ -30,6 +30,10 @@ jobs:
           
           # Descomprimir el archivo descargado
           #unzip bluemap-cli-latest.zip -d bluemap
+      - name: Instalar Dependencias BlueMap
+        run: |
+          echo "Instalando Dependencias BlueMap"
+          java -jar bluemap-cli-latest.jar -r || true
       - name: Configurar BlueMap
         run: |
           #!/bin/bash
