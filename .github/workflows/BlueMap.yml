@@ -9,6 +9,11 @@ jobs:
     steps:
       - name: Bajar Mapa
         uses: actions/checkout@v4
+      - name: Installar java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'microsoft' # See 'Supported distributions' for available options
+          java-version: '21'
       - name: Descargar última versión de BlueMap
         run: |
           # Obtener la URL del último release que contiene la palabra "cli"
