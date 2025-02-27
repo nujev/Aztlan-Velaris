@@ -30,6 +30,15 @@ jobs:
           
           # Descomprimir el archivo descargado
           #unzip bluemap-cli-latest.zip -d bluemap
+      - name: Configurar BlueMap
+        run: |
+          #!/bin/bash
+
+          # Nombre del archivo
+          archivo="config/core.conf"
+
+          # Reemplazar el texto
+          sed -i '' 's/accept-download: false/accept-download: true/g' "$archivo"
       - name: Crear Mapa
         run: |
           echo "Creando Mapa"
