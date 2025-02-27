@@ -38,11 +38,13 @@ jobs:
         run: |
           #!/bin/bash
 
+          echo "Configurando BlueMap"
+          
           # Nombre del archivo
           archivo="config/core.conf"
 
           # Reemplazar el texto
-          sed -i '' 's/accept-download: false/accept-download: true/g' "$archivo"
+          sed -i 's/accept-download: false/accept-download: true/g' "$archivo"
       - name: Crear Mapa
         run: |
           echo "Creando Mapa"
