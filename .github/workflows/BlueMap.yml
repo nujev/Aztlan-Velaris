@@ -23,6 +23,7 @@ jobs:
           java-version: '21'
       - name: Descargar última versión de BlueMap
         run: |
+          ls -lah
           # Obtener la URL del último release que contiene la palabra "cli"
           latest_release=$(curl -s https://api.github.com/repos/BlueMap-Minecraft/BlueMap/releases/latest | jq -r '.assets[] | select(.name | contains("cli")) | .browser_download_url')
           
