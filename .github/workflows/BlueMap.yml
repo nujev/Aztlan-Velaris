@@ -1,5 +1,5 @@
 name: Crear Mapa de Minecraft con BlueMap
-run-name: Crean Mapa 🚀
+run-name: Crear Mapa 🚀
 on: 
   push:
     branches: [ feature/gh-action ]
@@ -7,7 +7,7 @@ jobs:
   Creando-Mapa:
     runs-on: ubuntu-latest
     steps:
-      - name: Instalar BlueMap CLI
+      - name: Bajar Mapa
         uses: actions/checkout@v4
       - name: Descargar última versión de BlueMap
         run: |
