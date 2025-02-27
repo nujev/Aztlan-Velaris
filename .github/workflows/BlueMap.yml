@@ -1,0 +1,79 @@
+name: Crear Mapa de Minecraft con BlueMap
+run-name: Crear Mapa 🚀
+on: 
+  push:
+    branches: [ feature/gh-action ]
+jobs:
+  Creando-Mapa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Bajar Mapa
+        uses: actions/checkout@v4
+      - name: Installar java 21 #https://github.com/actions/setup-java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'microsoft' # See 'Supported distributions' for available options
+          java-version: '21'
+      - name: Descargar última versión de BlueMap
+        run: |
+          ls -lah
+          # Obtener la URL del último release que contiene la palabra "cli"
+          latest_release=$(curl -s https://api.github.com/repos/BlueMap-Minecraft/BlueMap/releases/latest | jq -r '.assets[] | select(.name | contains("cli")) | .browser_download_url')
+          
+          # Verificar si se encontró un release con la palabra "cli"
+          if [ -z "$latest_release" ]; then
+            echo "No se encontró un release con la palabra 'cli'"
+            exit 1
+          fi
+          
+          # Descargar el archivo del release
+          curl -L -o bluemap-cli-latest.jar $latest_release
+          
+          # Descomprimir el archivo descargado
+          #unzip bluemap-cli-latest.zip -d bluemap
+      - name: Instalar Dependencias BlueMap
+        run: |
+          echo "Instalando Dependencias BlueMap"
+          java -jar bluemap-cli-latest.jar -r || true
+      - name: Restaurar caché de world
+        uses: actions/cache@v3
+        with:
+          path: |
+            ./config
+            ./data
+            ./web
+          key: ${{ runner.os }}-world-cache
+          restore-keys: |
+            ${{ runner.os }}-world-cache
+      - name: Configurar BlueMap
+        run: |
+          #!/bin/bash
+
+          echo "Configurando BlueMap"
+          
+          # Nombre del archivo
+          archivo="config/core.conf"
+
+          # Reemplazar el texto
+          sed -i 's/accept-download: false/accept-download: true/g' "$archivo"
+      - name: Crear Mapa
+        run: |
+          echo "Creando Mapa"
+          java -jar bluemap-cli-latest.jar -r
+      - name: Agregar llave SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+      - name: Conexión SSH a minecraft.nujev.com
+        run: |
+          echo "Conectándose a minecraft.nujev.com"
+          scp -i ~/.ssh/id_rsa -o "StrictHostKeyChecking no" -r ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/
+      - name: Guardar caché de world
+        uses: actions/cache@v3
+        with:
+          path: |
+            ./config
+            ./data
+            ./web
+          key: ${{ runner.os }}-world-cache
