@@ -48,4 +48,5 @@ jobs:
       - name: Crear Mapa
         run: |
           echo "Creando Mapa"
+          ls -lah
           java -jar bluemap-cli-latest.jar -r
