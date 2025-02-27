@@ -68,8 +68,7 @@ jobs:
       - name: Conexión SSH a minecraft.nujev.com
         run: |
           echo "Conectándose a minecraft.nujev.com"
-          sudo apt-get update && sudo apt-get install -y rsync
-          rsync -avz --progress -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" ./web/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/
+          scp -i ~/.ssh/id_rsa -o "StrictHostKeyChecking no" -r ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/
       - name: Guardar caché de world
         uses: actions/cache@v3
         with:
