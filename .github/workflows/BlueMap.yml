@@ -7,16 +7,6 @@ jobs:
   Creando-Mapa:
     runs-on: ubuntu-latest
     steps:
-      - name: Restaurar caché de world
-        uses: actions/cache@v3
-        with:
-          path: |
-            ./config
-            ./data
-            ./web
-          key: ${{ runner.os }}-world-cache
-          restore-keys: |
-            ${{ runner.os }}-world-cache
       - name: Bajar Mapa
         uses: actions/checkout@v4
       - name: Installar java 21 #https://github.com/actions/setup-java
@@ -45,6 +35,16 @@ jobs:
         run: |
           echo "Instalando Dependencias BlueMap"
           java -jar bluemap-cli-latest.jar -r || true
+      - name: Restaurar caché de world
+        uses: actions/cache@v3
+        with:
+          path: |
+            ./config
+            ./data
+            ./web
+          key: ${{ runner.os }}-world-cache
+          restore-keys: |
+            ${{ runner.os }}-world-cache
       - name: Configurar BlueMap
         run: |
           #!/bin/bash
