@@ -10,7 +10,10 @@ jobs:
       - name: Restaurar caché de world
         uses: actions/cache@v3
         with:
-          path: world
+          path: |
+            ./config
+            ./data
+            ./web
           key: ${{ runner.os }}-world-cache
           restore-keys: |
             ${{ runner.os }}-world-cache
@@ -61,7 +64,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: |
-            config
-            data
-            web
+            ./config
+            ./data
+            ./web
           key: ${{ runner.os }}-world-cache
