@@ -24,6 +24,7 @@
       "minecraft:cherry_grove": "2025-02-18 22:44:36 +0000",
       "minecraft:sunflower_plains": "2025-02-19 03:11:35 +0000",
       "minecraft:grove": "2025-02-18 22:47:19 +0000",
+      "minecraft:swamp": "2025-02-27 04:16:16 +0000",
       "minecraft:meadow": "2025-02-18 22:47:02 +0000",
       "minecraft:birch_forest": "2025-02-19 03:05:00 +0000",
       "minecraft:savanna": "2025-02-18 18:38:03 +0000",
@@ -383,6 +384,7 @@
       "baked_potato": "2025-02-22 21:19:22 +0000",
       "melon_slice": "2025-02-18 21:38:01 +0000",
       "porkchop": "2025-02-20 06:24:10 +0000",
+      "tropical_fish": "2025-02-27 03:55:00 +0000",
       "apple": "2025-02-18 21:16:23 +0000",
       "cooked_chicken": "2025-02-18 22:55:24 +0000",
       "potato": "2025-02-20 04:58:37 +0000",
@@ -998,6 +1000,7 @@
       "minecraft:spider": "2025-02-18 20:40:12 +0000",
       "minecraft:zombie": "2025-02-18 19:10:40 +0000",
       "minecraft:creeper": "2025-02-18 21:42:16 +0000",
+      "minecraft:drowned": "2025-02-27 04:02:11 +0000",
       "minecraft:zombie_villager": "2025-02-19 23:07:48 +0000",
       "minecraft:slime": "2025-02-18 21:42:34 +0000"
     },
@@ -3127,6 +3130,42 @@
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2025-02-26 22:36:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wolf_armor": {
+    "criteria": {
+      "has_armadillo_scute": "2025-02-27 03:57:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-02-27 04:16:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-02-27 04:16:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-02-27 17:26:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-02-27 17:26:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-02-27 17:34:48 +0000"
     },
     "done": true
   },
