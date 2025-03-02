@@ -7,10 +7,17 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:forest": "2025-02-18 19:08:17 +0000",
+      "minecraft:jungle": "2025-02-18 23:01:38 +0000",
+      "minecraft:ocean": "2025-02-19 03:04:48 +0000",
+      "minecraft:cherry_grove": "2025-02-18 22:44:36 +0000",
+      "minecraft:sunflower_plains": "2025-02-19 03:11:35 +0000",
+      "minecraft:birch_forest": "2025-02-19 03:05:00 +0000",
+      "minecraft:bamboo_jungle": "2025-02-18 23:03:30 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-03-02 04:35:52 +0000",
       "minecraft:savanna_plateau": "2025-02-19 03:28:37 +0000",
       "minecraft:beach": "2025-02-20 05:56:11 +0000",
       "minecraft:dark_forest": "2025-02-23 02:04:56 +0000",
-      "minecraft:forest": "2025-02-18 19:08:17 +0000",
       "minecraft:mangrove_swamp": "2025-02-25 06:29:15 +0000",
       "minecraft:sparse_jungle": "2025-02-18 22:58:24 +0000",
       "minecraft:river": "2025-02-18 18:37:48 +0000",
@@ -19,16 +26,10 @@
       "minecraft:dripstone_caves": "2025-02-23 20:42:14 +0000",
       "minecraft:old_growth_birch_forest": "2025-02-20 20:05:14 +0000",
       "minecraft:deep_dark": "2025-02-19 03:27:31 +0000",
-      "minecraft:jungle": "2025-02-18 23:01:38 +0000",
-      "minecraft:ocean": "2025-02-19 03:04:48 +0000",
-      "minecraft:cherry_grove": "2025-02-18 22:44:36 +0000",
-      "minecraft:sunflower_plains": "2025-02-19 03:11:35 +0000",
       "minecraft:grove": "2025-02-18 22:47:19 +0000",
       "minecraft:swamp": "2025-02-27 04:16:16 +0000",
       "minecraft:meadow": "2025-02-18 22:47:02 +0000",
-      "minecraft:birch_forest": "2025-02-19 03:05:00 +0000",
       "minecraft:savanna": "2025-02-18 18:38:03 +0000",
-      "minecraft:bamboo_jungle": "2025-02-18 23:03:30 +0000",
       "minecraft:plains": "2025-02-18 22:04:43 +0000",
       "minecraft:jagged_peaks": "2025-02-19 03:08:07 +0000"
     },
@@ -373,6 +374,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-02-18 23:09:17 +0000",
+      "mutton": "2025-02-28 01:23:10 +0000",
       "bread": "2025-02-18 21:35:25 +0000",
       "rotten_flesh": "2025-02-18 20:44:05 +0000",
       "cookie": "2025-02-23 20:07:10 +0000",
@@ -390,7 +392,8 @@
       "potato": "2025-02-20 04:58:37 +0000",
       "cooked_cod": "2025-02-18 18:52:05 +0000",
       "cod": "2025-02-20 18:57:00 +0000",
-      "cooked_salmon": "2025-02-20 06:02:27 +0000"
+      "cooked_salmon": "2025-02-20 06:02:27 +0000",
+      "pumpkin_pie": "2025-03-01 03:12:59 +0000"
     },
     "done": false
   },
@@ -3166,6 +3169,174 @@
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2025-02-27 17:34:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2025-02-28 01:37:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2025-02-28 01:37:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-02-28 02:21:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-02-28 02:21:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-02-28 03:18:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-02-28 19:18:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-02-28 19:18:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-02-28 19:18:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-02-28 19:18:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-02-28 19:18:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-02-28 19:18:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-02-28 19:57:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-02-28 23:25:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2025-03-01 00:01:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2025-03-01 00:01:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2025-03-01 00:01:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2025-03-01 00:01:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2025-03-01 00:01:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-03-01 01:47:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2025-03-01 23:04:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2025-03-01 23:04:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-03-01 23:11:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2025-03-02 00:52:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-03-02 04:12:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2025-03-02 02:35:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-03-02 00:38:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-03-02 04:12:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2025-03-02 00:52:15 +0000"
     },
     "done": true
   },
