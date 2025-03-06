@@ -516,6 +516,7 @@
       "bread": "2025-02-19 23:30:40 +0000",
       "cooked_cod": "2025-02-18 19:07:35 +0000",
       "cooked_beef": "2025-02-20 03:42:08 +0000",
+      "baked_potato": "2025-03-05 16:40:46 +0000",
       "cooked_salmon": "2025-02-19 20:52:58 +0000"
     },
     "done": false
@@ -1434,6 +1435,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-03-05 18:20:37 +0000",
       "minecraft:cave_spider": "2025-02-20 18:01:42 +0000",
       "minecraft:skeleton": "2025-02-19 22:54:06 +0000",
       "minecraft:spider": "2025-02-20 04:25:18 +0000",
@@ -1912,6 +1914,18 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2025-02-24 22:48:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_the_recipe": "2025-03-05 16:38:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-03-05 18:21:04 +0000"
     },
     "done": true
   },
