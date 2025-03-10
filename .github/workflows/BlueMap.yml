@@ -48,17 +48,9 @@ jobs:
           
           echo "Instalando Dependencias BlueMap"
           java -jar bluemap-cli-latest.jar -r || true
-      - name: Configurar BlueMap
-        if: ${{ !hashFiles('config/**') }}
-        run: |
-          #!/bin/bash
           
-          echo "Configurando BlueMap"
-          
-          # Nombre del archivo
+          echo "Configurando BlueMap"          
           archivo="config/core.conf"
-
-          # Reemplazar el texto
           sed -i 's/accept-download: false/accept-download: true/g' "$archivo"
       - name: Crear Mapa
         run: |
