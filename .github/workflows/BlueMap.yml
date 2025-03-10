@@ -82,7 +82,8 @@ jobs:
           echo "Agregando llave SSH"
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa     
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
       - name: Conexión SSH a minecraft.nujev.com
         run: |
           #!/bin/bash
