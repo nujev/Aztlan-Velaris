@@ -74,7 +74,7 @@ jobs:
             ./config
             ./data
             ./web
-          key: key: ${{ steps.cache-restore.outputs.cache-primary-key }}
+          key: ${{ steps.cache-restore.outputs.cache-primary-key }}
       - name: Agregar llave SSH
         run: |
           #!/bin/bash
