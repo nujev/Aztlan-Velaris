@@ -76,10 +76,15 @@ jobs:
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H ${{ secrets.SSH_SERVER }} >> ~/.ssh/known_hosts
-      - name: Instalar rsync
+      - name: Verificar e instalar rsync
         run: |
-          sudo apt-get update
-          sudo apt-get install -y rsync
+          if ! command -v rsync &> /dev/null; then
+            echo "rsync no está instalado. Instalando rsync..."
+            sudo apt-get update
+            sudo apt-get install -y rsync
+          else
+            echo "rsync ya está instalado."
+          fi
       - name: Conexión SSH a ${{ secrets.SSH_SERVER }}
         run: |
           #!/bin/bash
