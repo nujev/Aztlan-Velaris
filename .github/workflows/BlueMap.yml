@@ -33,15 +33,14 @@ jobs:
           # Descomprimir el archivo descargado
           #unzip bluemap-cli-latest.zip -d bluemap
       - name: Restaurar caché de world
-        uses: actions/cache@v3
+        id: cache-restore
+        uses: actions/cache/restore@v4
         with:
           path: |
             ./config
             ./data
             ./web
           key: ${{ runner.os }}-world-cache
-          restore-keys: |
-            ${{ runner.os }}-world-cache
       - name: Instalar Dependencias BlueMap
         if: ${{ !hashFiles('web/**') }}
         run: |
@@ -68,13 +67,14 @@ jobs:
           echo "Creando Mapa"
           java -jar bluemap-cli-latest.jar -r
       - name: Guardar caché de world
-        uses: actions/cache@v3
+        id: cache-save
+        uses: actions/cache/save@v4
         with:
           path: |
             ./config
             ./data
             ./web
-          key: ${{ runner.os }}-world-cache
+          key: key: ${{ steps.cache-restore.outputs.cache-primary-key }}
       - name: Agregar llave SSH
         run: |
           #!/bin/bash
