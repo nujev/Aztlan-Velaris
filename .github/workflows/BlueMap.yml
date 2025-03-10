@@ -80,7 +80,7 @@ jobs:
         run: |
           #!/bin/bash
 
-          echo "Conectándose a minecraft.nujev.com"
+          echo "Conectándose a ${{ secrets.SSH_SERVER }}"
           rsync -avz --exclude='.git*' --delete ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/ --rsync-path="sudo rsync"
 
           #scp -i ~/.ssh/id_rsa -o "StrictHostKeyChecking no" -r ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/
