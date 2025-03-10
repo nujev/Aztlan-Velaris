@@ -67,22 +67,6 @@ jobs:
 
           echo "Creando Mapa"
           java -jar bluemap-cli-latest.jar -r
-      - name: Agregar llave SSH
-        run: |
-          #!/bin/bash
-          
-          echo "Agregando llave SSH"
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-      - name: Conexión SSH a minecraft.nujev.com
-        run: |
-          #!/bin/bash
-
-          echo "Conectándose a minecraft.nujev.com"
-          rsync -avz --exclude='.git*' --delete ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/ --rsync-path="sudo rsync"
-
-          #scp -i ~/.ssh/id_rsa -o "StrictHostKeyChecking no" -r ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/
       - name: Guardar caché de world
         uses: actions/cache@v3
         with:
@@ -91,3 +75,19 @@ jobs:
             ./data
             ./web
           key: ${{ runner.os }}-world-cache
+      - name: Agregar llave SSH
+        run: |
+          #!/bin/bash
+          
+          echo "Agregando llave SSH"
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa     
+      - name: Conexión SSH a minecraft.nujev.com
+        run: |
+          #!/bin/bash
+
+          echo "Conectándose a minecraft.nujev.com"
+          rsync -avz --exclude='.git*' --delete ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/ --rsync-path="sudo rsync"
+
+          #scp -i ~/.ssh/id_rsa -o "StrictHostKeyChecking no" -r ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/
