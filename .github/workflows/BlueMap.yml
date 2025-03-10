@@ -16,7 +16,8 @@ jobs:
           java-version: '21'
       - name: Descargar última versión de BlueMap
         run: |
-          ls -lah
+          #!/bin/bash
+
           # Obtener la URL del último release que contiene la palabra "cli"
           latest_release=$(curl -s https://api.github.com/repos/BlueMap-Minecraft/BlueMap/releases/latest | jq -r '.assets[] | select(.name | contains("cli")) | .browser_download_url')
           
@@ -31,10 +32,6 @@ jobs:
           
           # Descomprimir el archivo descargado
           #unzip bluemap-cli-latest.zip -d bluemap
-      - name: Instalar Dependencias BlueMap
-        run: |
-          echo "Instalando Dependencias BlueMap"
-          java -jar bluemap-cli-latest.jar -r || true
       - name: Restaurar caché de world
         uses: actions/cache@v3
         with:
@@ -45,10 +42,18 @@ jobs:
           key: ${{ runner.os }}-world-cache
           restore-keys: |
             ${{ runner.os }}-world-cache
-      - name: Configurar BlueMap
+      - name: Instalar Dependencias BlueMap
+        if: ${{ !hashFiles('web/**') }}
         run: |
           #!/bin/bash
-
+          
+          echo "Instalando Dependencias BlueMap"
+          java -jar bluemap-cli-latest.jar -r || true
+      - name: Configurar BlueMap
+        if: ${{ !hashFiles('config/**') }}
+        run: |
+          #!/bin/bash
+          
           echo "Configurando BlueMap"
           
           # Nombre del archivo
@@ -58,6 +63,8 @@ jobs:
           sed -i 's/accept-download: false/accept-download: true/g' "$archivo"
       - name: Crear Mapa
         run: |
+          #!/bin/bash
+
           echo "Creando Mapa"
           java -jar bluemap-cli-latest.jar -r
       - name: Agregar llave SSH
@@ -67,6 +74,8 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
       - name: Conexión SSH a minecraft.nujev.com
         run: |
+          #!/bin/bash
+
           echo "Conectándose a minecraft.nujev.com"
           rsync -avz --exclude='.git*' --delete ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/ --rsync-path="sudo rsync"
 
