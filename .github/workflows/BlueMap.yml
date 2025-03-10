@@ -76,7 +76,7 @@ jobs:
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H ${{ secrets.SSH_SERVER }} >> ~/.ssh/known_hosts
-      - name: Conexión SSH a minecraft.nujev.com
+      - name: Conexión SSH a ${{ secrets.SSH_SERVER }}
         run: |
           #!/bin/bash
 
