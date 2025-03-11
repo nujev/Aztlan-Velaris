@@ -16,7 +16,8 @@ jobs:
           java-version: '21'
       - name: Descargar última versión de BlueMap
         run: |
-          ls -lah
+          #!/bin/bash
+
           # Obtener la URL del último release que contiene la palabra "cli"
           latest_release=$(curl -s https://api.github.com/repos/BlueMap-Minecraft/BlueMap/releases/latest | jq -r '.assets[] | select(.name | contains("cli")) | .browser_download_url')
           
@@ -31,49 +32,55 @@ jobs:
           
           # Descomprimir el archivo descargado
           #unzip bluemap-cli-latest.zip -d bluemap
-      - name: Instalar Dependencias BlueMap
-        run: |
-          echo "Instalando Dependencias BlueMap"
-          java -jar bluemap-cli-latest.jar -r || true
       - name: Restaurar caché de world
-        uses: actions/cache@v3
+        id: cache-restore
+        uses: actions/cache/restore@v4
         with:
           path: |
             ./config
             ./data
             ./web
           key: ${{ runner.os }}-world-cache
-          restore-keys: |
-            ${{ runner.os }}-world-cache
-      - name: Configurar BlueMap
+      - name: Instalar Dependencias BlueMap
+        if: ${{ !hashFiles('web/**') }}
         run: |
           #!/bin/bash
-
-          echo "Configurando BlueMap"
           
-          # Nombre del archivo
+          echo "Instalando Dependencias BlueMap"
+          java -jar bluemap-cli-latest.jar -r || true
+          
+          echo "Configurando BlueMap"          
           archivo="config/core.conf"
-
-          # Reemplazar el texto
           sed -i 's/accept-download: false/accept-download: true/g' "$archivo"
       - name: Crear Mapa
         run: |
+          #!/bin/bash
+
           echo "Creando Mapa"
           java -jar bluemap-cli-latest.jar -r
-      - name: Agregar llave SSH
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-      - name: Conexión SSH a minecraft.nujev.com
-        run: |
-          echo "Conectándose a minecraft.nujev.com"
-          scp -i ~/.ssh/id_rsa -o "StrictHostKeyChecking no" -r ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/
       - name: Guardar caché de world
-        uses: actions/cache@v3
+        id: cache-save
+        uses: actions/cache/save@v4
         with:
           path: |
             ./config
             ./data
             ./web
-          key: ${{ runner.os }}-world-cache
+          key: ${{ steps.cache-restore.outputs.cache-primary-key }}
+      - name: Agregar llave SSH
+        run: |
+          #!/bin/bash
+          
+          echo "Agregando llave SSH"
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.SSH_SERVER }} >> ~/.ssh/known_hosts
+      - name: Conexión SSH a ${{ secrets.SSH_SERVER }}
+        run: |
+          #!/bin/bash
+
+          echo "Conectándose a ${{ secrets.SSH_SERVER }}"
+          rsync -avz -e "ssh -i ~/.ssh/id_rsa" --exclude='.git*' --delete ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/ --rsync-path="sudo rsync"
+
+          #scp -i ~/.ssh/id_rsa -o "StrictHostKeyChecking no" -r ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/
