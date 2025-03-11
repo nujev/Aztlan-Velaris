@@ -2,7 +2,7 @@ name: Crear Mapa de Minecraft con BlueMap
 run-name: Crear Mapa 🚀
 on: 
   push:
-    branches: [ develop ]
+    branches: [ main ]
 jobs:
   Creando-Mapa:
     runs-on: ubuntu-latest
