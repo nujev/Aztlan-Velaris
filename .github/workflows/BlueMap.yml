@@ -76,20 +76,11 @@ jobs:
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -H ${{ secrets.SSH_SERVER }} >> ~/.ssh/known_hosts
-      - name: Verificar e instalar rsync
-        run: |
-          if ! command -v rsync &> /dev/null; then
-            echo "rsync no está instalado. Instalando rsync..."
-            sudo apt-get update
-            sudo apt-get install -y rsync
-          else
-            echo "rsync ya está instalado."
-          fi
       - name: Conexión SSH a ${{ secrets.SSH_SERVER }}
         run: |
           #!/bin/bash
 
           echo "Conectándose a ${{ secrets.SSH_SERVER }}"
-          rsync -avz --exclude='.git*' --delete ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/ --rsync-path="sudo rsync"
+          rsync -avz -e "ssh -i ~/.ssh/id_rsa" --exclude='.git*' --delete ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/ --rsync-path="sudo rsync"
 
           #scp -i ~/.ssh/id_rsa -o "StrictHostKeyChecking no" -r ./web/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_SERVER }}:web/
