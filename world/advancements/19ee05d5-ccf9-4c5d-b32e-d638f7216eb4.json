@@ -1942,5 +1942,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-03-11 23:02:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-03-11 23:02:43 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }

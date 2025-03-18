@@ -271,5 +271,24 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2025-03-16 01:06:06 +0000",
+      "baked_potato": "2025-03-16 01:10:02 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-03-16 01:06:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-03-16 01:06:27 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }
