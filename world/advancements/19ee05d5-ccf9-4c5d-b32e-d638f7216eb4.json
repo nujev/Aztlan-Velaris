@@ -11,8 +11,10 @@
       "minecraft:stony_peaks": "2025-02-23 19:25:01 +0000",
       "minecraft:forest": "2025-02-18 19:05:02 +0000",
       "minecraft:deep_dark": "2025-02-19 20:45:40 +0000",
+      "minecraft:deep_ocean": "2025-03-23 16:59:29 +0000",
       "minecraft:river": "2025-02-17 19:37:22 +0000",
       "minecraft:stony_shore": "2025-02-18 19:01:14 +0000",
+      "minecraft:lush_caves": "2025-03-23 16:59:13 +0000",
       "minecraft:dripstone_caves": "2025-02-23 18:49:28 +0000",
       "minecraft:savanna": "2025-02-17 19:36:49 +0000",
       "minecraft:plains": "2025-02-19 00:53:21 +0000"
@@ -514,8 +516,11 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2025-02-19 23:30:40 +0000",
+      "cooked_chicken": "2025-03-23 18:31:16 +0000",
+      "potato": "2025-03-23 17:18:00 +0000",
       "cooked_cod": "2025-02-18 19:07:35 +0000",
       "cooked_beef": "2025-02-20 03:42:08 +0000",
+      "chorus_fruit": "2025-03-23 18:18:36 +0000",
       "baked_potato": "2025-03-05 16:40:46 +0000",
       "cooked_salmon": "2025-02-19 20:52:58 +0000"
     },
@@ -1438,9 +1443,12 @@
       "minecraft:pillager": "2025-03-05 18:20:37 +0000",
       "minecraft:cave_spider": "2025-02-20 18:01:42 +0000",
       "minecraft:skeleton": "2025-02-19 22:54:06 +0000",
+      "minecraft:enderman": "2025-03-23 17:12:12 +0000",
+      "minecraft:witch": "2025-03-23 16:49:32 +0000",
       "minecraft:spider": "2025-02-20 04:25:18 +0000",
       "minecraft:zombie": "2025-02-23 18:50:32 +0000",
-      "minecraft:creeper": "2025-03-09 19:16:36 +0000"
+      "minecraft:creeper": "2025-03-09 19:16:36 +0000",
+      "minecraft:zombie_villager": "2025-03-23 16:49:18 +0000"
     },
     "done": false
   },
@@ -1951,6 +1959,194 @@
   "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_log": "2025-03-11 23:02:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2025-03-23 18:18:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-03-23 17:17:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-03-23 18:45:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-03-23 18:36:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-03-23 16:58:05 +0000",
+      "minecraft:soul_sand_valley": "2025-03-23 16:58:56 +0000",
+      "minecraft:warped_forest": "2025-03-23 16:57:08 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_chestplate": "2025-03-23 17:17:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-03-23 16:57:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-03-23 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-03-23 17:17:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-03-23 16:57:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2025-03-23 18:45:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2025-03-23 18:45:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_chestplate": "2025-03-23 17:17:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-03-23 18:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-03-23 18:16:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2025-03-23 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-03-23 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-03-23 18:45:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2025-03-23 18:45:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2025-03-23 17:17:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-03-23 18:36:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-03-23 17:01:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-03-23 17:07:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-03-23 18:45:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-03-23 18:45:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-03-23 16:18:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2025-03-23 18:45:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-03-23 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-03-23 18:19:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2025-03-23 18:45:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-03-23 17:07:08 +0000"
     },
     "done": true
   },
