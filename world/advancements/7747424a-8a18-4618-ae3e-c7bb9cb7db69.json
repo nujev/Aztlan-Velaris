@@ -1,11 +1,13 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-04-19 21:39:28 +0000",
       "minecraft:old_growth_pine_taiga": "2025-04-03 20:02:42 +0000",
       "minecraft:forest": "2025-02-18 19:08:17 +0000",
       "minecraft:taiga": "2025-03-02 23:46:16 +0000",
       "minecraft:deep_ocean": "2025-03-02 23:23:53 +0000",
       "minecraft:lush_caves": "2025-03-07 17:56:52 +0000",
+      "minecraft:eroded_badlands": "2025-04-18 19:59:29 +0000",
       "minecraft:desert": "2025-04-03 20:31:46 +0000",
       "minecraft:windswept_forest": "2025-04-03 20:12:24 +0000",
       "minecraft:jungle": "2025-02-18 23:01:38 +0000",
@@ -13,6 +15,7 @@
       "minecraft:cherry_grove": "2025-02-18 22:44:36 +0000",
       "minecraft:sunflower_plains": "2025-02-19 03:11:35 +0000",
       "minecraft:birch_forest": "2025-02-19 03:05:00 +0000",
+      "minecraft:windswept_hills": "2025-04-18 20:01:40 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-04-03 20:02:26 +0000",
       "minecraft:bamboo_jungle": "2025-02-18 23:03:30 +0000",
       "minecraft:wooded_badlands": "2025-04-16 22:54:50 +0000",
@@ -392,6 +395,7 @@
       "chicken": "2025-03-11 17:36:45 +0000",
       "honey_bottle": "2025-03-31 04:15:15 +0000",
       "cooked_mutton": "2025-02-26 04:46:33 +0000",
+      "sweet_berries": "2025-04-19 23:08:08 +0000",
       "cooked_beef": "2025-02-20 01:50:48 +0000",
       "chorus_fruit": "2025-03-23 18:18:35 +0000",
       "beef": "2025-02-20 06:20:51 +0000",
@@ -423,6 +427,7 @@
       "cooked_chicken": "2025-02-18 22:55:24 +0000",
       "mushroom_stew": "2025-03-31 04:07:05 +0000",
       "cod": "2025-02-20 18:57:00 +0000",
+      "rabbit_stew": "2025-04-19 00:13:56 +0000",
       "cooked_salmon": "2025-02-20 06:02:27 +0000",
       "carrot": "2025-03-13 21:07:24 +0000"
     },
@@ -941,9 +946,13 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cow": "2025-02-19 20:57:24 +0000",
+      "minecraft:camel": "2025-04-18 04:11:14 +0000",
       "minecraft:chicken": "2025-02-18 19:05:44 +0000",
+      "minecraft:pig": "2025-04-19 01:30:18 +0000",
       "minecraft:wolf": "2025-04-03 20:33:03 +0000",
-      "minecraft:sheep": "2025-04-08 20:28:39 +0000"
+      "minecraft:frog": "2025-04-19 16:43:36 +0000",
+      "minecraft:sheep": "2025-04-08 20:28:39 +0000",
+      "minecraft:rabbit": "2025-04-18 04:40:12 +0000"
     },
     "done": false
   },
@@ -3166,6 +3175,7 @@
     "criteria": {
       "minecraft:rusty": "2025-04-03 20:18:27 +0000",
       "minecraft:woods": "2025-02-26 04:46:52 +0000",
+      "minecraft:pale": "2025-04-19 23:11:25 +0000",
       "minecraft:black": "2025-04-04 01:52:42 +0000"
     },
     "done": false
@@ -6601,6 +6611,84 @@
   "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
     "criteria": {
       "has_light_gray_terracotta": "2025-04-17 04:01:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2025-04-18 04:12:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2025-04-18 04:14:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_carpet": {
+    "criteria": {
+      "has_lime_wool": "2025-04-18 21:19:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_banner": {
+    "criteria": {
+      "has_lime_wool": "2025-04-18 21:19:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed": {
+    "criteria": {
+      "has_lime_wool": "2025-04-18 21:19:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-04-18 22:19:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/music_disc_5": {
+    "criteria": {
+      "has_disc_fragment_5": "2025-04-18 22:37:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-04-18 22:55:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-04-18 22:55:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-04-18 22:55:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/spyglass_at_parrot": {
+    "criteria": {
+      "spyglass_at_parrot": "2025-04-19 02:46:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/leash_all_frog_variants": {
+    "criteria": {
+      "minecraft:temperate": "2025-04-19 23:22:16 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/tadpole_in_a_bucket": {
+    "criteria": {
+      "tadpole_bucket": "2025-04-19 23:21:40 +0000"
     },
     "done": true
   },
