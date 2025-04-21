@@ -7,30 +7,41 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-04-20 16:08:55 +0000",
+      "minecraft:forest": "2025-04-13 02:15:14 +0000",
+      "minecraft:taiga": "2025-04-21 17:25:50 +0000",
+      "minecraft:deep_ocean": "2025-03-23 16:59:24 +0000",
+      "minecraft:lush_caves": "2025-03-23 16:59:11 +0000",
+      "minecraft:desert": "2025-04-21 18:21:16 +0000",
+      "minecraft:windswept_forest": "2025-04-21 17:25:55 +0000",
+      "minecraft:jungle": "2025-04-13 02:59:35 +0000",
+      "minecraft:ocean": "2025-04-14 20:46:51 +0000",
+      "minecraft:cherry_grove": "2025-02-23 20:55:28 +0000",
+      "minecraft:sunflower_plains": "2025-04-18 20:36:14 +0000",
+      "minecraft:birch_forest": "2025-04-18 20:53:02 +0000",
+      "minecraft:windswept_hills": "2025-04-21 17:38:35 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-04-21 17:36:41 +0000",
+      "minecraft:bamboo_jungle": "2025-04-18 21:28:48 +0000",
+      "minecraft:windswept_savanna": "2025-04-21 18:14:02 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-04-14 20:47:17 +0000",
       "minecraft:flower_forest": "2025-04-14 20:45:40 +0000",
       "minecraft:savanna_plateau": "2025-04-18 20:34:17 +0000",
       "minecraft:beach": "2025-04-14 20:42:38 +0000",
       "minecraft:dark_forest": "2025-04-18 20:54:33 +0000",
       "minecraft:stony_peaks": "2025-04-18 19:41:39 +0000",
-      "minecraft:forest": "2025-04-13 02:15:14 +0000",
+      "minecraft:mangrove_swamp": "2025-04-21 18:13:41 +0000",
       "minecraft:sparse_jungle": "2025-04-13 02:44:07 +0000",
-      "minecraft:deep_ocean": "2025-03-23 16:59:24 +0000",
       "minecraft:river": "2025-02-17 03:32:21 +0000",
       "minecraft:lukewarm_ocean": "2025-04-13 02:55:20 +0000",
       "minecraft:stony_shore": "2025-02-17 19:00:50 +0000",
-      "minecraft:lush_caves": "2025-03-23 16:59:11 +0000",
       "minecraft:dripstone_caves": "2025-02-23 20:45:15 +0000",
+      "minecraft:frozen_peaks": "2025-04-20 16:09:00 +0000",
+      "minecraft:old_growth_birch_forest": "2025-04-21 17:19:20 +0000",
       "minecraft:deep_dark": "2025-02-21 20:17:10 +0000",
-      "minecraft:jungle": "2025-04-13 02:59:35 +0000",
-      "minecraft:ocean": "2025-04-14 20:46:51 +0000",
-      "minecraft:cherry_grove": "2025-02-23 20:55:28 +0000",
-      "minecraft:sunflower_plains": "2025-04-18 20:36:14 +0000",
+      "minecraft:grove": "2025-04-20 16:01:04 +0000",
       "minecraft:meadow": "2025-04-18 20:53:41 +0000",
-      "minecraft:birch_forest": "2025-04-18 20:53:02 +0000",
       "minecraft:savanna": "2025-02-17 03:32:36 +0000",
-      "minecraft:bamboo_jungle": "2025-04-18 21:28:48 +0000",
-      "minecraft:plains": "2025-02-17 20:08:15 +0000",
-      "minecraft:deep_lukewarm_ocean": "2025-04-14 20:47:17 +0000"
+      "minecraft:plains": "2025-02-17 20:08:15 +0000"
     },
     "done": false
   },
@@ -2535,6 +2546,253 @@
       "has_tuff": "2025-04-18 22:44:40 +0000"
     },
     "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-04-20 14:35:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-04-20 14:35:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-04-20 14:35:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-04-20 15:49:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
+    "criteria": {
+      "has_flow_armor_trim_smithing_template": "2025-04-20 15:49:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-04-20 15:49:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-04-20 15:49:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-04-20 15:49:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/tide_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-04-20 15:49:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/tide_armor_trim_smithing_template": {
+    "criteria": {
+      "has_tide_armor_trim_smithing_template": "2025-04-20 15:49:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-04-20 15:49:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/eye_armor_trim_smithing_template": {
+    "criteria": {
+      "has_eye_armor_trim_smithing_template": "2025-04-20 15:49:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-04-20 15:49:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-04-20 15:49:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-04-20 15:49:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-04-20 15:49:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-04-20 15:50:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-04-20 15:50:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-04-20 15:50:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-04-20 15:50:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-04-20 15:50:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-04-20 15:50:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-04-20 15:50:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-04-20 15:50:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-04-20 15:50:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-04-20 15:50:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:eye_armor_trim_smithing_template_smithing_trim": "2025-04-20 15:52:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-04-20 16:07:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-04-20 16:07:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-04-20 16:08:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-04-20 16:08:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-04-20 16:20:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2025-04-20 16:20:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2025-04-20 16:33:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-04-21 17:31:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-04-21 17:29:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:woods": "2025-04-21 17:55:14 +0000",
+      "minecraft:pale": "2025-04-21 17:29:01 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-04-21 17:31:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-04-21 17:31:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2025-04-21 18:21:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:calico": "2025-04-21 17:55:35 +0000"
+    },
+    "done": false
   },
   "DataVersion": 4325
 }

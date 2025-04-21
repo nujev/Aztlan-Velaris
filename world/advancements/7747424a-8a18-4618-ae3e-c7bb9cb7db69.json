@@ -3,27 +3,17 @@
     "criteria": {
       "minecraft:snowy_slopes": "2025-04-19 21:39:28 +0000",
       "minecraft:old_growth_pine_taiga": "2025-04-03 20:02:42 +0000",
-      "minecraft:forest": "2025-02-18 19:08:17 +0000",
       "minecraft:taiga": "2025-03-02 23:46:16 +0000",
       "minecraft:deep_ocean": "2025-03-02 23:23:53 +0000",
-      "minecraft:lush_caves": "2025-03-07 17:56:52 +0000",
       "minecraft:eroded_badlands": "2025-04-18 19:59:29 +0000",
-      "minecraft:desert": "2025-04-03 20:31:46 +0000",
-      "minecraft:windswept_forest": "2025-04-03 20:12:24 +0000",
-      "minecraft:jungle": "2025-02-18 23:01:38 +0000",
-      "minecraft:ocean": "2025-02-19 03:04:48 +0000",
+      "minecraft:frozen_river": "2025-04-20 16:18:30 +0000",
       "minecraft:cherry_grove": "2025-02-18 22:44:36 +0000",
       "minecraft:sunflower_plains": "2025-02-19 03:11:35 +0000",
       "minecraft:birch_forest": "2025-02-19 03:05:00 +0000",
       "minecraft:windswept_hills": "2025-04-18 20:01:40 +0000",
-      "minecraft:old_growth_spruce_taiga": "2025-04-03 20:02:26 +0000",
       "minecraft:bamboo_jungle": "2025-02-18 23:03:30 +0000",
       "minecraft:wooded_badlands": "2025-04-16 22:54:50 +0000",
-      "minecraft:windswept_savanna": "2025-04-16 22:33:12 +0000",
-      "minecraft:warm_ocean": "2025-04-16 22:33:42 +0000",
-      "minecraft:deep_lukewarm_ocean": "2025-03-02 04:35:52 +0000",
       "minecraft:badlands": "2025-04-16 22:54:27 +0000",
-      "minecraft:flower_forest": "2025-03-16 21:05:39 +0000",
       "minecraft:savanna_plateau": "2025-02-19 03:28:37 +0000",
       "minecraft:beach": "2025-02-20 05:56:11 +0000",
       "minecraft:dark_forest": "2025-02-23 02:04:56 +0000",
@@ -33,16 +23,33 @@
       "minecraft:river": "2025-02-18 18:37:48 +0000",
       "minecraft:lukewarm_ocean": "2025-02-18 23:09:13 +0000",
       "minecraft:stony_shore": "2025-02-18 19:08:00 +0000",
+      "minecraft:snowy_plains": "2025-04-20 23:17:10 +0000",
       "minecraft:dripstone_caves": "2025-02-23 20:42:14 +0000",
-      "minecraft:old_growth_birch_forest": "2025-02-20 20:05:14 +0000",
-      "minecraft:deep_dark": "2025-02-19 03:27:31 +0000",
+      "minecraft:snowy_taiga": "2025-04-20 16:12:01 +0000",
       "minecraft:grove": "2025-02-18 22:47:19 +0000",
       "minecraft:swamp": "2025-02-27 04:16:16 +0000",
+      "minecraft:jagged_peaks": "2025-02-19 03:08:07 +0000",
+      "minecraft:cold_ocean": "2025-04-21 17:32:49 +0000",
+      "minecraft:forest": "2025-02-18 19:08:17 +0000",
+      "minecraft:lush_caves": "2025-03-07 17:56:52 +0000",
+      "minecraft:deep_cold_ocean": "2025-04-21 17:33:36 +0000",
+      "minecraft:frozen_ocean": "2025-04-21 17:39:18 +0000",
+      "minecraft:desert": "2025-04-03 20:31:46 +0000",
+      "minecraft:windswept_forest": "2025-04-03 20:12:24 +0000",
+      "minecraft:jungle": "2025-02-18 23:01:38 +0000",
+      "minecraft:ocean": "2025-02-19 03:04:48 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-04-03 20:02:26 +0000",
+      "minecraft:snowy_beach": "2025-04-21 17:38:52 +0000",
+      "minecraft:windswept_savanna": "2025-04-16 22:33:12 +0000",
+      "minecraft:warm_ocean": "2025-04-16 22:33:42 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-03-02 04:35:52 +0000",
+      "minecraft:flower_forest": "2025-03-16 21:05:39 +0000",
+      "minecraft:old_growth_birch_forest": "2025-02-20 20:05:14 +0000",
+      "minecraft:deep_dark": "2025-02-19 03:27:31 +0000",
       "minecraft:meadow": "2025-02-18 22:47:02 +0000",
       "minecraft:windswept_gravelly_hills": "2025-04-16 22:31:27 +0000",
       "minecraft:savanna": "2025-02-18 18:38:03 +0000",
       "minecraft:plains": "2025-02-18 22:04:43 +0000",
-      "minecraft:jagged_peaks": "2025-02-19 03:08:07 +0000",
       "minecraft:pale_garden": "2025-03-02 23:09:51 +0000"
     },
     "done": false
@@ -949,6 +956,7 @@
       "minecraft:camel": "2025-04-18 04:11:14 +0000",
       "minecraft:chicken": "2025-02-18 19:05:44 +0000",
       "minecraft:pig": "2025-04-19 01:30:18 +0000",
+      "minecraft:llama": "2025-04-20 16:33:24 +0000",
       "minecraft:wolf": "2025-04-03 20:33:03 +0000",
       "minecraft:frog": "2025-04-19 16:43:36 +0000",
       "minecraft:sheep": "2025-04-08 20:28:39 +0000",
@@ -6680,15 +6688,39 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tadpole_in_a_bucket": {
+    "criteria": {
+      "tadpole_bucket": "2025-04-19 23:21:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/leash_all_frog_variants": {
     "criteria": {
       "minecraft:temperate": "2025-04-19 23:22:16 +0000"
     },
     "done": false
   },
-  "minecraft:husbandry/tadpole_in_a_bucket": {
+  "minecraft:recipes/building_blocks/packed_ice": {
     "criteria": {
-      "tadpole_bucket": "2025-04-19 23:21:40 +0000"
+      "has_ice": "2025-04-20 16:15:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2025-04-20 16:20:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/host_armor_trim_smithing_template": {
+    "criteria": {
+      "has_host_armor_trim_smithing_template": "2025-04-20 17:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/host_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-04-20 17:56:54 +0000"
     },
     "done": true
   },
