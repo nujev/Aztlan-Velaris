@@ -1153,7 +1153,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:chicken": "2025-02-21 20:05:35 +0000"
+      "minecraft:chicken": "2025-02-21 20:05:35 +0000",
+      "minecraft:wolf": "2025-04-21 22:19:25 +0000"
     },
     "done": false
   },
@@ -2751,12 +2752,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_bed": {
-    "criteria": {
-      "has_black_wool": "2025-04-21 17:31:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2025-04-21 17:29:01 +0000"
@@ -2770,6 +2765,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-04-21 17:31:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_carpet": {
     "criteria": {
       "has_black_wool": "2025-04-21 17:31:32 +0000"
@@ -2782,17 +2783,17 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/green_dye": {
-    "criteria": {
-      "has_cactus": "2025-04-21 18:21:17 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
       "minecraft:calico": "2025-04-21 17:55:35 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2025-04-21 18:21:17 +0000"
+    },
+    "done": true
   },
   "DataVersion": 4325
 }
