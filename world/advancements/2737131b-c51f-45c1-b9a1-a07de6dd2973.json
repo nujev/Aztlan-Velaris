@@ -3571,9 +3571,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-03-23 16:36:52 +0000",
       "minecraft:soul_sand_valley": "2025-03-23 17:49:16 +0000",
-      "minecraft:warped_forest": "2025-03-23 16:34:47 +0000"
+      "minecraft:nether_wastes": "2025-05-07 02:06:26 +0000",
+      "minecraft:warped_forest": "2025-03-23 16:34:47 +0000",
+      "minecraft:basalt_deltas": "2025-05-07 02:09:13 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:story/follow_ender_eye": {
     "criteria": {
@@ -5804,6 +5806,24 @@
   "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
     "criteria": {
       "has_polished_diorite": "2025-04-25 22:03:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed": {
+    "criteria": {
+      "has_pink_wool": "2025-05-02 21:54:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_carpet": {
+    "criteria": {
+      "has_pink_wool": "2025-05-02 21:54:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_banner": {
+    "criteria": {
+      "has_pink_wool": "2025-05-02 21:54:13 +0000"
     },
     "done": true
   },
