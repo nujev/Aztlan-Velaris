@@ -52,6 +52,9 @@ jobs:
           echo "Configurando BlueMap"          
           archivo="config/core.conf"
           sed -i 's/accept-download: false/accept-download: true/g' "$archivo"
+          archivo="config/maps/overworld.conf"
+          sed -i 's/remove-caves-below-y: 55/remove-caves-below-y: -10000/g' "$archivo"
+          sed -i 's/cave-detection-uses-block-light: true/cave-detection-uses-block-light: false/g' "$archivo"
       - name: Crear Mapa
         run: |
           #!/bin/bash
