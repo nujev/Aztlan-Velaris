@@ -44,6 +44,7 @@
       "minecraft:warm_ocean": "2025-04-16 22:33:42 +0000",
       "minecraft:deep_lukewarm_ocean": "2025-03-02 04:35:52 +0000",
       "minecraft:flower_forest": "2025-03-16 21:05:39 +0000",
+      "minecraft:frozen_peaks": "2025-05-12 23:48:33 +0000",
       "minecraft:old_growth_birch_forest": "2025-02-20 20:05:14 +0000",
       "minecraft:deep_dark": "2025-02-19 03:27:31 +0000",
       "minecraft:meadow": "2025-02-18 22:47:02 +0000",
@@ -6758,6 +6759,18 @@
   "minecraft:recipes/misc/wild_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2025-05-07 19:03:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/spyglass_at_ghast": {
+    "criteria": {
+      "spyglass_at_ghast": "2025-05-13 01:14:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2025-05-13 21:06:46 +0000"
     },
     "done": true
   },
