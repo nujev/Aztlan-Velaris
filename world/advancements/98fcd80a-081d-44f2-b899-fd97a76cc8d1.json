@@ -39,6 +39,7 @@
       "minecraft:old_growth_birch_forest": "2025-04-21 17:19:20 +0000",
       "minecraft:deep_dark": "2025-02-21 20:17:10 +0000",
       "minecraft:grove": "2025-04-20 16:01:04 +0000",
+      "minecraft:swamp": "2025-05-23 03:04:25 +0000",
       "minecraft:meadow": "2025-04-18 20:53:41 +0000",
       "minecraft:savanna": "2025-02-17 03:32:36 +0000",
       "minecraft:plains": "2025-02-17 20:08:15 +0000"
@@ -294,15 +295,18 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2025-03-23 21:57:35 +0000",
+      "minecraft:pillager": "2025-05-23 03:05:58 +0000",
       "minecraft:skeleton": "2025-02-21 20:03:46 +0000",
       "minecraft:phantom": "2025-04-18 19:38:13 +0000",
       "minecraft:wither_skeleton": "2025-04-02 20:22:12 +0000",
+      "minecraft:ravager": "2025-05-24 01:41:28 +0000",
       "minecraft:ghast": "2025-05-04 19:14:35 +0000",
       "minecraft:ender_dragon": "2025-03-23 18:07:31 +0000",
       "minecraft:hoglin": "2025-05-03 21:19:39 +0000",
       "minecraft:shulker": "2025-03-25 00:29:09 +0000",
       "minecraft:piglin": "2025-05-03 20:47:49 +0000",
       "minecraft:breeze": "2025-04-13 01:48:42 +0000",
+      "minecraft:vindicator": "2025-05-24 00:51:41 +0000",
       "minecraft:enderman": "2025-03-23 18:02:07 +0000",
       "minecraft:silverfish": "2025-04-13 01:46:53 +0000",
       "minecraft:magma_cube": "2025-03-23 21:58:27 +0000",
@@ -311,7 +315,8 @@
       "minecraft:zombie": "2025-02-17 18:35:37 +0000",
       "minecraft:creeper": "2025-04-13 02:48:26 +0000",
       "minecraft:drowned": "2025-04-14 20:52:00 +0000",
-      "minecraft:zombie_villager": "2025-04-18 21:31:33 +0000"
+      "minecraft:zombie_villager": "2025-04-18 21:31:33 +0000",
+      "minecraft:evoker": "2025-05-24 01:44:43 +0000"
     },
     "done": false
   },
@@ -3019,6 +3024,102 @@
   "minecraft:recipes/building_blocks/nether_bricks": {
     "criteria": {
       "has_nether_brick": "2025-05-04 19:35:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-05-23 03:06:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2025-05-23 03:33:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2025-05-23 03:34:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_planks": {
+    "criteria": {
+      "has_logs": "2025-05-24 01:03:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_wood": {
+    "criteria": {
+      "has_log": "2025-05-24 01:03:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-24 01:14:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_fence": {
+    "criteria": {
+      "has_planks": "2025-05-24 01:14:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-24 01:14:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-24 01:14:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-24 01:14:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_sign": {
+    "criteria": {
+      "has_planks": "2025-05-24 01:14:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_button": {
+    "criteria": {
+      "has_planks": "2025-05-24 01:14:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_door": {
+    "criteria": {
+      "has_planks": "2025-05-24 01:14:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_slab": {
+    "criteria": {
+      "has_planks": "2025-05-24 01:14:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2025-05-24 01:34:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-05-24 01:45:51 +0000"
     },
     "done": true
   },

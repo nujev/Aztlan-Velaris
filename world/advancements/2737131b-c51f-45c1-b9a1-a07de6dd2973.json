@@ -535,6 +535,7 @@
       "minecraft:pillager": "2025-03-13 21:23:42 +0000",
       "minecraft:skeleton": "2025-02-20 17:56:23 +0000",
       "minecraft:phantom": "2025-02-23 20:27:54 +0000",
+      "minecraft:zombified_piglin": "2025-05-19 21:47:06 +0000",
       "minecraft:witch": "2025-03-21 18:02:33 +0000",
       "minecraft:shulker": "2025-03-23 18:37:27 +0000",
       "minecraft:cave_spider": "2025-02-20 17:53:49 +0000",
@@ -5824,6 +5825,90 @@
   "minecraft:recipes/decorations/pink_banner": {
     "criteria": {
       "has_pink_wool": "2025-05-02 21:54:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-05-18 17:03:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2025-05-18 17:03:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2025-05-18 17:03:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-05-18 17:03:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2025-05-18 17:03:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2025-05-18 17:03:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:tide_armor_trim_smithing_template_smithing_trim": "2025-05-18 17:05:14 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:tide_armor_trim_smithing_template_smithing_trim": "2025-05-18 17:05:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2025-05-19 21:31:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2025-05-19 21:31:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-05-19 21:44:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-05-19 21:44:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_copper_bulb_from_honeycomb": {
+    "criteria": {
+      "has_weathered_copper_bulb": "2025-05-19 21:52:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_copper": {
+    "criteria": {
+      "has_raw_copper_block": "2025-05-21 03:07:57 +0000"
     },
     "done": true
   },
