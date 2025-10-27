@@ -64,6 +64,7 @@ jobs:
       - name: Guardar caché de world
         id: cache-save
         uses: actions/cache/save@v4
+        if: always()
         with:
           path: |
             ./config
