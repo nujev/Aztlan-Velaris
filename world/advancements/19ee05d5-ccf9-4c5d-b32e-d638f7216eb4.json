@@ -548,6 +548,7 @@
       "cooked_beef": "2025-02-20 03:42:08 +0000",
       "chorus_fruit": "2025-03-23 18:18:36 +0000",
       "baked_potato": "2025-03-05 16:40:46 +0000",
+      "melon_slice": "2025-09-11 17:48:17 +0000",
       "cooked_salmon": "2025-02-19 20:52:58 +0000",
       "carrot": "2025-03-28 21:27:05 +0000"
     },
@@ -1468,17 +1469,19 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-03-05 18:20:37 +0000",
-      "minecraft:cave_spider": "2025-02-20 18:01:42 +0000",
       "minecraft:skeleton": "2025-02-19 22:54:06 +0000",
       "minecraft:phantom": "2025-04-18 21:04:41 +0000",
-      "minecraft:enderman": "2025-03-23 17:12:12 +0000",
       "minecraft:witch": "2025-03-23 16:49:32 +0000",
+      "minecraft:ghast": "2025-09-11 18:10:42 +0000",
+      "minecraft:shulker": "2025-03-25 23:10:22 +0000",
+      "minecraft:cave_spider": "2025-02-20 18:01:42 +0000",
+      "minecraft:piglin": "2025-09-11 18:16:11 +0000",
+      "minecraft:enderman": "2025-03-23 17:12:12 +0000",
       "minecraft:spider": "2025-02-20 04:25:18 +0000",
       "minecraft:zombie": "2025-02-23 18:50:32 +0000",
       "minecraft:creeper": "2025-03-09 19:16:36 +0000",
       "minecraft:drowned": "2025-05-06 21:21:28 +0000",
-      "minecraft:zombie_villager": "2025-03-23 16:49:18 +0000",
-      "minecraft:shulker": "2025-03-25 23:10:22 +0000"
+      "minecraft:zombie_villager": "2025-03-23 16:49:18 +0000"
     },
     "done": false
   },
@@ -4364,6 +4367,18 @@
   "minecraft:recipes/decorations/pink_stained_glass_pane": {
     "criteria": {
       "has_glass": "2025-06-12 02:04:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_the_recipe": "2025-09-11 18:25:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/saddle": {
+    "criteria": {
+      "has_leather": "2025-09-11 18:22:50 +0000"
     },
     "done": true
   },

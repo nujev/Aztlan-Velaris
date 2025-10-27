@@ -1,0 +1,720 @@
+[0.005s][info][gc,init] CardTable entry size: 512
+[0.005s][info][gc     ] Using Parallel
+[0.007s][info][gc,init] Version: 21.0.8+9-LTS (release)
+[0.007s][info][gc,init] CPUs: 4 total, 4 available
+[0.007s][info][gc,init] Memory: 15995M
+[0.007s][info][gc,init] Large Page Support: Disabled
+[0.007s][info][gc,init] NUMA Support: Disabled
+[0.007s][info][gc,init] Compressed Oops: Enabled (Zero based)
+[0.007s][info][gc,init] Alignments: Space 512K, Generation 512K, Heap 2M
+[0.007s][info][gc,init] Heap Min Capacity: 2054M
+[0.007s][info][gc,init] Heap Initial Capacity: 2054M
+[0.007s][info][gc,init] Heap Max Capacity: 5G
+[0.007s][info][gc,init] Pre-touch: Disabled
+[0.007s][info][gc,init] Parallel Workers: 4
+[0.020s][info][gc,metaspace] CDS archive(s) mapped at: [0x0000773124000000-0x0000773124ca0000-0x0000773124ca0000), size 13238272, SharedBaseAddress: 0x0000773124000000, ArchiveRelocationMode: 1.
+[0.020s][info][gc,metaspace] Compressed class space mapped at: 0x0000773125000000-0x0000773165000000, reserved size: 1073741824
+[0.020s][info][gc,metaspace] Narrow klass base: 0x0000773124000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[0.382s][info][safepoint   ] Safepoint "ICBufferFull", Time since last: 354376091 ns, Reaching safepoint: 82400 ns, Cleanup: 95999 ns, At safepoint: 1000 ns, Leaving safepoint: 7400 ns, Total: 186799 ns
+[0.606s][info][safepoint   ] Safepoint "RedefineClasses", Time since last: 215522465 ns, Reaching safepoint: 3600 ns, Cleanup: 104700 ns, At safepoint: 6891776 ns, Leaving safepoint: 2227793 ns, Total: 9227869 ns
+[0.792s][info][safepoint   ] Safepoint "JFRSafepointClear", Time since last: 185372367 ns, Reaching safepoint: 171899 ns, Cleanup: 46200 ns, At safepoint: 2800 ns, Leaving safepoint: 9600 ns, Total: 230499 ns
+[1.671s][info][safepoint   ] Safepoint "ICBufferFull", Time since last: 879020001 ns, Reaching safepoint: 3100 ns, Cleanup: 121899 ns, At safepoint: 1000 ns, Leaving safepoint: 4400 ns, Total: 130399 ns
+[1.683s][info][safepoint   ] Safepoint "ICBufferFull", Time since last: 6092180 ns, Reaching safepoint: 3633387 ns, Cleanup: 8400 ns, At safepoint: 900 ns, Leaving safepoint: 1916694 ns, Total: 5559381 ns
+[2.711s][info][safepoint   ] Safepoint "ICBufferFull", Time since last: 1028082919 ns, Reaching safepoint: 3100 ns, Cleanup: 133600 ns, At safepoint: 1000 ns, Leaving safepoint: 1300 ns, Total: 139000 ns
+[2.929s][info][gc,start    ] GC(0) Pause Young (Metadata GC Threshold)
+[2.958s][debug][gc,phases   ] GC(0) Scavenge 27.761ms
+[2.958s][debug][gc,ref      ] GC(0) ReferenceProcessor::execute queues: 2, RefProcThreadModel::Multi, marks_oops_alive: false
+[2.958s][debug][gc,ref      ] GC(0) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: true
+[2.958s][debug][gc,ref      ] GC(0) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[2.958s][debug][gc,phases   ] GC(0) Reference Processing 0.434ms
+[2.958s][debug][gc,phases   ] GC(0)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Total                          Min: 0, Avg: 59.5, Max: 128, Diff: 128, Sum: 238, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Dead                           Min: 0, Avg:  0.8, Max: 3, Diff: 3, Sum: 3, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Total                          Min: 0, Avg:  3.0, Max: 12, Diff: 12, Sum: 12, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)   StringTable Weak               Min:  0.0, Avg:  0.1, Max:  0.1, Diff:  0.1, Sum:  0.2, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Dead                           Min: 0, Avg:  7.8, Max: 25, Diff: 25, Sum: 31, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Total                          Min: 0, Avg: 2006.2, Max: 4352, Diff: 4352, Sum: 8025, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Dead                           Min: 0, Avg: 94.2, Max: 226, Diff: 226, Sum: 377, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Total                          Min: 0, Avg: 462.2, Max: 953, Diff: 953, Sum: 1849, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Total                          Min: 0, Avg: 12.0, Max: 48, Diff: 48, Sum: 48, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.958s][debug][gc,phases   ] GC(0) Weak Processing 0.373ms
+[2.958s][debug][gc,age      ] GC(0) Desired survivor size 536870912 bytes, new threshold 7 (max threshold 15)
+[2.958s][info ][gc,heap     ] GC(0) PSYoungGen: 393340K(1572864K)->37591K(1572864K) Eden: 393340K(1048576K)->0K(1048576K) From: 0K(524288K)->37591K(524288K)
+[2.958s][info ][gc,heap     ] GC(0) ParOldGen: 1074K(6144K)->1146K(6144K)
+[2.958s][info ][gc,metaspace] GC(0) Metaspace: 21131K(21504K)->21131K(21504K) NonClass: 18756K(18944K)->18756K(18944K) Class: 2374K(2560K)->2374K(2560K)
+[2.959s][info ][gc          ] GC(0) Pause Young (Metadata GC Threshold) 385M->37M(1542M) 29.880ms
+[2.959s][info ][gc,cpu      ] GC(0) User=0.04s Sys=0.01s Real=0.03s
+[2.959s][debug][gc,phases   ] GC(1) Pre Compact 0.011ms
+[2.959s][info ][gc,start    ] GC(1) Pause Full (Metadata GC Threshold)
+[2.959s][info ][gc,phases,start] GC(1) Marking Phase
+[2.984s][debug][gc,phases      ] GC(1) Par Mark 25.864ms
+[2.985s][debug][gc,ref         ] GC(1) ReferenceProcessor::execute queues: 2, RefProcThreadModel::Multi, marks_oops_alive: false
+[2.985s][debug][gc,ref         ] GC(1) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: true
+[2.985s][debug][gc,ref         ] GC(1) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[2.985s][debug][gc,phases      ] GC(1) Reference Processing 0.525ms
+[2.985s][debug][gc,phases      ] GC(1)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Total                          Min: 0, Avg: 59.5, Max: 192, Diff: 192, Sum: 238, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Total                          Min: 0, Avg:  3.0, Max: 12, Diff: 12, Sum: 12, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)   StringTable Weak               Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Total                          Min: 0, Avg: 2006.2, Max: 4032, Diff: 4032, Sum: 8025, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Total                          Min: 0, Avg: 462.2, Max: 960, Diff: 960, Sum: 1849, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Total                          Min: 0, Avg: 12.0, Max: 48, Diff: 48, Sum: 48, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[2.985s][debug][gc,phases      ] GC(1) Weak Processing 0.279ms
+[2.985s][debug][gc,phases      ] GC(1) ClassLoaderData 0.015ms
+[2.985s][debug][gc,phases      ] GC(1) Trigger cleanups 0.000ms
+[2.994s][debug][gc,phases      ] GC(1) Purge Unlinked NMethods 0.002ms
+[2.994s][debug][gc,phases      ] GC(1) Unregister NMethods 0.021ms
+[2.994s][debug][gc,phases      ] GC(1) Free Code Blobs 0.003ms
+[2.994s][debug][gc,phases      ] GC(1) Class Unloading 8.994ms
+[2.994s][debug][gc,phases      ] GC(1) Report Object Count 0.033ms
+[2.994s][info ][gc,phases      ] GC(1) Marking Phase 35.750ms
+[2.994s][info ][gc,phases,start] GC(1) Summary Phase
+[2.994s][info ][gc,phases      ] GC(1) Summary Phase 0.007ms
+[2.994s][info ][gc,phases,start] GC(1) Adjust Roots
+[3.006s][info ][gc,phases      ] GC(1) Adjust Roots 11.174ms
+[3.006s][info ][gc,phases,start] GC(1) Compaction Phase
+[3.037s][info ][gc,phases      ] GC(1) Compaction Phase 31.580ms
+[3.037s][info ][gc,phases,start] GC(1) Post Compact
+[3.038s][debug][gc,phases      ] GC(1) Purge Class Loader Data 0.960ms
+[3.039s][info ][gc,phases      ] GC(1) Post Compact 1.908ms
+[3.039s][info ][gc,heap        ] GC(1) PSYoungGen: 37591K(1572864K)->32492K(1572864K) Eden: 0K(1048576K)->0K(1048576K) From: 37591K(524288K)->32492K(524288K)
+[3.039s][info ][gc,heap        ] GC(1) ParOldGen: 1146K(6144K)->5985K(6144K)
+[3.039s][info ][gc,metaspace   ] GC(1) Metaspace: 21131K(21504K)->21131K(21504K) NonClass: 18756K(18944K)->18756K(18944K) Class: 2374K(2560K)->2374K(2560K)
+[3.039s][info ][gc             ] GC(1) Pause Full (Metadata GC Threshold) 37M->37M(1542M) 80.527ms
+[3.039s][info ][gc,cpu         ] GC(1) User=0.12s Sys=0.00s Real=0.08s
+[3.039s][info ][safepoint      ] Safepoint "CollectForMetadataAllocation", Time since last: 217410968 ns, Reaching safepoint: 78600 ns, Cleanup: 46199 ns, At safepoint: 110549928 ns, Leaving safepoint: 7300 ns, Total: 110682027 ns
+[3.041s][info ][safepoint      ] Safepoint "CollectForMetadataAllocation", Time since last: 1371496 ns, Reaching safepoint: 305699 ns, Cleanup: 2100 ns, At safepoint: 2300 ns, Leaving safepoint: 3400 ns, Total: 313499 ns
+[3.758s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 717537084 ns, Reaching safepoint: 3500 ns, Cleanup: 111100 ns, At safepoint: 1000 ns, Leaving safepoint: 1300 ns, Total: 116900 ns
+[4.307s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 548655353 ns, Reaching safepoint: 3800 ns, Cleanup: 145300 ns, At safepoint: 1000 ns, Leaving safepoint: 13900 ns, Total: 164000 ns
+[4.493s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 185217176 ns, Reaching safepoint: 78300 ns, Cleanup: 136300 ns, At safepoint: 1000 ns, Leaving safepoint: 10700 ns, Total: 226300 ns
+[5.094s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 600627478 ns, Reaching safepoint: 3600 ns, Cleanup: 161899 ns, At safepoint: 1100 ns, Leaving safepoint: 19300 ns, Total: 185899 ns
+[5.273s][info ][gc,start       ] GC(2) Pause Young (Metadata GC Threshold)
+[5.307s][debug][gc,phases      ] GC(2) Scavenge 34.443ms
+[5.307s][debug][gc,ref         ] GC(2) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: false
+[5.308s][debug][gc,ref         ] GC(2) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: true
+[5.308s][debug][gc,ref         ] GC(2) ReferenceProcessor::execute queues: 2, RefProcThreadModel::Multi, marks_oops_alive: false
+[5.308s][debug][gc,phases      ] GC(2) Reference Processing 0.674ms
+[5.308s][debug][gc,phases      ] GC(2)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Total                          Min: 0, Avg: 72.5, Max: 162, Diff: 162, Sum: 290, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Total                          Min: 0, Avg:  3.2, Max: 13, Diff: 13, Sum: 13, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)   StringTable Weak               Min:  0.0, Avg:  0.1, Max:  0.1, Diff:  0.1, Sum:  0.4, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Dead                           Min: 0, Avg:  2.8, Max: 4, Diff: 4, Sum: 11, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Total                          Min: 0, Avg: 3661.2, Max: 5109, Diff: 5109, Sum: 14645, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Dead                           Min: 0, Avg: 410.0, Max: 569, Diff: 569, Sum: 1640, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Total                          Min: 0, Avg: 1154.5, Max: 1664, Diff: 1664, Sum: 4618, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Total                          Min: 0, Avg: 12.8, Max: 51, Diff: 51, Sum: 51, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.308s][debug][gc,phases      ] GC(2) Weak Processing 0.364ms
+[5.308s][debug][gc,age         ] GC(2) Desired survivor size 536870912 bytes, new threshold 7 (max threshold 15)
+[5.308s][info ][gc,heap        ] GC(2) PSYoungGen: 514900K(1572864K)->53164K(1572864K) Eden: 482408K(1048576K)->0K(1048576K) From: 32492K(524288K)->53164K(524288K)
+[5.308s][info ][gc,heap        ] GC(2) ParOldGen: 5985K(6144K)->6001K(6144K)
+[5.308s][info ][gc,metaspace   ] GC(2) Metaspace: 35360K(35840K)->35360K(35840K) NonClass: 30786K(31104K)->30786K(31104K) Class: 4574K(4736K)->4574K(4736K)
+[5.308s][info ][gc             ] GC(2) Pause Young (Metadata GC Threshold) 508M->57M(1542M) 35.587ms
+[5.308s][info ][gc,cpu         ] GC(2) User=0.08s Sys=0.02s Real=0.04s
+[5.308s][debug][gc,phases      ] GC(3) Pre Compact 0.027ms
+[5.308s][info ][gc,start       ] GC(3) Pause Full (Metadata GC Threshold)
+[5.308s][info ][gc,phases,start] GC(3) Marking Phase
+[5.333s][debug][gc,phases      ] GC(3) Par Mark 24.877ms
+[5.334s][debug][gc,ref         ] GC(3) ReferenceProcessor::execute queues: 3, RefProcThreadModel::Multi, marks_oops_alive: false
+[5.334s][debug][gc,ref         ] GC(3) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: true
+[5.334s][debug][gc,ref         ] GC(3) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[5.334s][debug][gc,phases      ] GC(3) Reference Processing 0.681ms
+[5.334s][debug][gc,phases      ] GC(3)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Total                          Min: 0, Avg: 72.5, Max: 290, Diff: 290, Sum: 290, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Total                          Min: 0, Avg:  3.2, Max: 13, Diff: 13, Sum: 13, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)   StringTable Weak               Min:  0.0, Avg:  0.0, Max:  0.1, Diff:  0.1, Sum:  0.2, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Total                          Min: 0, Avg: 3661.2, Max: 5376, Diff: 5376, Sum: 14645, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.1, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Total                          Min: 0, Avg: 1154.5, Max: 1664, Diff: 1664, Sum: 4618, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Total                          Min: 0, Avg: 12.8, Max: 51, Diff: 51, Sum: 51, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[5.334s][debug][gc,phases      ] GC(3) Weak Processing 0.298ms
+[5.334s][debug][gc,phases      ] GC(3) ClassLoaderData 0.035ms
+[5.334s][debug][gc,phases      ] GC(3) Trigger cleanups 0.000ms
+[5.344s][debug][gc,phases      ] GC(3) Purge Unlinked NMethods 0.742ms
+[5.344s][debug][gc,phases      ] GC(3) Unregister NMethods 0.014ms
+[5.345s][debug][gc,phases      ] GC(3) Free Code Blobs 0.144ms
+[5.345s][debug][gc,phases      ] GC(3) Class Unloading 10.314ms
+[5.345s][debug][gc,phases      ] GC(3) Report Object Count 0.001ms
+[5.345s][info ][gc,phases      ] GC(3) Marking Phase 36.239ms
+[5.345s][info ][gc,phases,start] GC(3) Summary Phase
+[5.345s][info ][gc,phases      ] GC(3) Summary Phase 0.008ms
+[5.345s][info ][gc,phases,start] GC(3) Adjust Roots
+[5.350s][info ][gc,phases      ] GC(3) Adjust Roots 5.357ms
+[5.350s][info ][gc,phases,start] GC(3) Compaction Phase
+[5.528s][info ][gc,phases      ] GC(3) Compaction Phase 177.894ms
+[5.528s][info ][gc,phases,start] GC(3) Post Compact
+[5.530s][debug][gc,phases      ] GC(3) Purge Class Loader Data 1.312ms
+[5.530s][info ][gc,phases      ] GC(3) Post Compact 2.318ms
+[5.530s][info ][gc,heap        ] GC(3) PSYoungGen: 53164K(1572864K)->52974K(1572864K) Eden: 0K(1048576K)->0K(1048576K) From: 53164K(524288K)->52974K(524288K)
+[5.530s][info ][gc,heap        ] GC(3) ParOldGen: 6001K(6144K)->5969K(6144K)
+[5.530s][info ][gc,metaspace   ] GC(3) Metaspace: 35360K(35840K)->35360K(35840K) NonClass: 30786K(31104K)->30786K(31104K) Class: 4574K(4736K)->4574K(4736K)
+[5.530s][info ][gc             ] GC(3) Pause Full (Metadata GC Threshold) 57M->57M(1542M) 221.930ms
+[5.530s][info ][gc,cpu         ] GC(3) User=0.43s Sys=0.01s Real=0.22s
+[5.530s][info ][safepoint      ] Safepoint "CollectForMetadataAllocation", Time since last: 178961998 ns, Reaching safepoint: 77900 ns, Cleanup: 91199 ns, At safepoint: 257698833 ns, Leaving safepoint: 14500 ns, Total: 257882432 ns
+[5.807s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 276139670 ns, Reaching safepoint: 96800 ns, Cleanup: 499198 ns, At safepoint: 1100 ns, Leaving safepoint: 12700 ns, Total: 609798 ns
+[5.892s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 84519116 ns, Reaching safepoint: 3300 ns, Cleanup: 100700 ns, At safepoint: 700 ns, Leaving safepoint: 1000 ns, Total: 105700 ns
+[6.189s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 296970100 ns, Reaching safepoint: 2900 ns, Cleanup: 155199 ns, At safepoint: 800 ns, Leaving safepoint: 2000 ns, Total: 160899 ns
+[6.285s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 95720778 ns, Reaching safepoint: 4200 ns, Cleanup: 135200 ns, At safepoint: 800 ns, Leaving safepoint: 7500 ns, Total: 147700 ns
+[6.684s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 398589158 ns, Reaching safepoint: 3900 ns, Cleanup: 146900 ns, At safepoint: 900 ns, Leaving safepoint: 1600 ns, Total: 153300 ns
+[6.993s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 309053259 ns, Reaching safepoint: 3800 ns, Cleanup: 127400 ns, At safepoint: 800 ns, Leaving safepoint: 5200 ns, Total: 137200 ns
+[7.211s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 215693274 ns, Reaching safepoint: 3500 ns, Cleanup: 2971990 ns, At safepoint: 1500 ns, Leaving safepoint: 17600 ns, Total: 2994590 ns
+[7.888s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 675968625 ns, Reaching safepoint: 4000 ns, Cleanup: 141499 ns, At safepoint: 1000 ns, Leaving safepoint: 1500 ns, Total: 147999 ns
+[8.227s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 339060659 ns, Reaching safepoint: 4400 ns, Cleanup: 148199 ns, At safepoint: 1000 ns, Leaving safepoint: 1800 ns, Total: 155399 ns
+[9.207s][info ][gc,start       ] GC(4) Pause Young (Metadata GC Threshold)
+[9.299s][debug][gc,phases      ] GC(4) Scavenge 91.823ms
+[9.299s][debug][gc,ref         ] GC(4) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: false
+[9.299s][debug][gc,ref         ] GC(4) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: true
+[9.300s][debug][gc,ref         ] GC(4) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: false
+[9.300s][debug][gc,phases      ] GC(4) Reference Processing 1.270ms
+[9.300s][debug][gc,phases      ] GC(4)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Total                          Min: 0, Avg: 109.2, Max: 309, Diff: 309, Sum: 437, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Total                          Min: 0, Avg:  3.2, Max: 13, Diff: 13, Sum: 13, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)   StringTable Weak               Min:  0.0, Avg:  0.2, Max:  0.2, Diff:  0.2, Sum:  0.7, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Dead                           Min: 0, Avg:  3.8, Max: 10, Diff: 10, Sum: 15, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Total                          Min: 0, Avg: 6958.2, Max: 9792, Diff: 9792, Sum: 27833, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.1, Max:  0.1, Diff:  0.1, Sum:  0.3, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Dead                           Min: 0, Avg: 975.5, Max: 1354, Diff: 1354, Sum: 3902, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Total                          Min: 0, Avg: 2772.2, Max: 3712, Diff: 3712, Sum: 11089, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Total                          Min: 0, Avg: 12.2, Max: 49, Diff: 49, Sum: 49, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.300s][debug][gc,phases      ] GC(4) Weak Processing 0.595ms
+[9.300s][debug][gc,age         ] GC(4) Desired survivor size 536870912 bytes, new threshold 7 (max threshold 15)
+[9.300s][info ][gc,heap        ] GC(4) PSYoungGen: 577265K(1572864K)->78909K(1572864K) Eden: 524290K(1048576K)->0K(1048576K) From: 52974K(524288K)->78909K(524288K)
+[9.300s][info ][gc,heap        ] GC(4) ParOldGen: 5969K(6144K)->6001K(6144K)
+[9.300s][info ][gc,metaspace   ] GC(4) Metaspace: 59125K(59776K)->59125K(59776K) NonClass: 49496K(49856K)->49496K(49856K) Class: 9629K(9920K)->9629K(9920K)
+[9.300s][info ][gc             ] GC(4) Pause Young (Metadata GC Threshold) 569M->82M(1542M) 93.809ms
+[9.300s][info ][gc,cpu         ] GC(4) User=0.14s Sys=0.02s Real=0.09s
+[9.300s][debug][gc,phases      ] GC(5) Pre Compact 0.011ms
+[9.301s][info ][gc,start       ] GC(5) Pause Full (Metadata GC Threshold)
+[9.301s][info ][gc,phases,start] GC(5) Marking Phase
+[9.387s][debug][gc,phases      ] GC(5) Par Mark 86.890ms
+[9.388s][debug][gc,ref         ] GC(5) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: false
+[9.389s][debug][gc,ref         ] GC(5) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: true
+[9.389s][debug][gc,ref         ] GC(5) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[9.389s][debug][gc,phases      ] GC(5) Reference Processing 1.970ms
+[9.390s][debug][gc,phases      ] GC(5)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Total                          Min: 0, Avg: 109.2, Max: 437, Diff: 437, Sum: 437, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Total                          Min: 0, Avg:  3.2, Max: 13, Diff: 13, Sum: 13, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)   StringTable Weak               Min:  0.0, Avg:  0.1, Max:  0.3, Diff:  0.3, Sum:  0.3, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Total                          Min: 0, Avg: 6958.2, Max: 27833, Diff: 27833, Sum: 27833, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.1, Diff:  0.1, Sum:  0.1, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Total                          Min: 0, Avg: 2772.2, Max: 11089, Diff: 11089, Sum: 11089, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Total                          Min: 0, Avg: 12.2, Max: 49, Diff: 49, Sum: 49, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[9.390s][debug][gc,phases      ] GC(5) Weak Processing 0.675ms
+[9.390s][debug][gc,phases      ] GC(5) ClassLoaderData 0.055ms
+[9.390s][debug][gc,phases      ] GC(5) Trigger cleanups 0.001ms
+[9.403s][debug][gc,phases      ] GC(5) Purge Unlinked NMethods 0.328ms
+[9.403s][debug][gc,phases      ] GC(5) Unregister NMethods 0.038ms
+[9.403s][debug][gc,phases      ] GC(5) Free Code Blobs 0.068ms
+[9.403s][debug][gc,phases      ] GC(5) Class Unloading 13.325ms
+[9.403s][debug][gc,phases      ] GC(5) Report Object Count 0.001ms
+[9.403s][info ][gc,phases      ] GC(5) Marking Phase 102.923ms
+[9.403s][info ][gc,phases,start] GC(5) Summary Phase
+[9.403s][info ][gc,phases      ] GC(5) Summary Phase 0.008ms
+[9.403s][info ][gc,phases,start] GC(5) Adjust Roots
+[9.420s][info ][gc,phases      ] GC(5) Adjust Roots 16.062ms
+[9.420s][info ][gc,phases,start] GC(5) Compaction Phase
+[9.930s][info ][gc,phases      ] GC(5) Compaction Phase 510.457ms
+[9.930s][info ][gc,phases,start] GC(5) Post Compact
+[9.931s][debug][gc,phases      ] GC(5) Purge Class Loader Data 0.356ms
+[9.931s][info ][gc,phases      ] GC(5) Post Compact 1.062ms
+[9.931s][info ][gc,heap        ] GC(5) PSYoungGen: 78909K(1572864K)->78715K(1572864K) Eden: 0K(1048576K)->0K(1048576K) From: 78909K(524288K)->78715K(524288K)
+[9.931s][info ][gc,heap        ] GC(5) ParOldGen: 6001K(6144K)->5939K(6144K)
+[9.931s][info ][gc,metaspace   ] GC(5) Metaspace: 59125K(59776K)->59125K(59776K) NonClass: 49496K(49856K)->49496K(49856K) Class: 9629K(9920K)->9629K(9920K)
+[9.931s][info ][gc             ] GC(5) Pause Full (Metadata GC Threshold) 82M->82M(1542M) 630.627ms
+[9.931s][info ][gc,cpu         ] GC(5) User=0.84s Sys=0.01s Real=0.63s
+[9.932s][info ][safepoint      ] Safepoint "CollectForMetadataAllocation", Time since last: 979646303 ns, Reaching safepoint: 84500 ns, Cleanup: 137399 ns, At safepoint: 724590061 ns, Leaving safepoint: 321799 ns, Total: 725133759 ns
+[10.868s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 935857452 ns, Reaching safepoint: 3900 ns, Cleanup: 165100 ns, At safepoint: 900 ns, Leaving safepoint: 1600 ns, Total: 171500 ns
+[10.871s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 3599687 ns, Reaching safepoint: 77500 ns, Cleanup: 4900 ns, At safepoint: 900 ns, Leaving safepoint: 10900 ns, Total: 94200 ns
+[11.035s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 163828649 ns, Reaching safepoint: 4000 ns, Cleanup: 124500 ns, At safepoint: 700 ns, Leaving safepoint: 1500 ns, Total: 130700 ns
+[11.472s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 433672241 ns, Reaching safepoint: 2491892 ns, Cleanup: 140699 ns, At safepoint: 1100 ns, Leaving safepoint: 11800 ns, Total: 2645491 ns
+[11.764s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 292325117 ns, Reaching safepoint: 4100 ns, Cleanup: 134500 ns, At safepoint: 900 ns, Leaving safepoint: 2000 ns, Total: 141500 ns
+[11.934s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 169876228 ns, Reaching safepoint: 79000 ns, Cleanup: 118000 ns, At safepoint: 1100 ns, Leaving safepoint: 13000 ns, Total: 211100 ns
+[12.262s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 327301499 ns, Reaching safepoint: 77000 ns, Cleanup: 125499 ns, At safepoint: 1000 ns, Leaving safepoint: 4400 ns, Total: 207899 ns
+[12.706s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 437792728 ns, Reaching safepoint: 2990490 ns, Cleanup: 133399 ns, At safepoint: 1000 ns, Leaving safepoint: 3413189 ns, Total: 6538078 ns
+[12.953s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 246898669 ns, Reaching safepoint: 78900 ns, Cleanup: 139800 ns, At safepoint: 1100 ns, Leaving safepoint: 4300 ns, Total: 224100 ns
+[13.409s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 455409068 ns, Reaching safepoint: 3900 ns, Cleanup: 148099 ns, At safepoint: 1100 ns, Leaving safepoint: 1700 ns, Total: 154799 ns
+[13.860s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 447914594 ns, Reaching safepoint: 3167289 ns, Cleanup: 132300 ns, At safepoint: 1200 ns, Leaving safepoint: 16800 ns, Total: 3317589 ns
+[14.268s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 407509729 ns, Reaching safepoint: 76700 ns, Cleanup: 144900 ns, At safepoint: 900 ns, Leaving safepoint: 7399 ns, Total: 229899 ns
+[15.292s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 1023878957 ns, Reaching safepoint: 4000 ns, Cleanup: 142499 ns, At safepoint: 1100 ns, Leaving safepoint: 1800 ns, Total: 149399 ns
+[15.584s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 291927619 ns, Reaching safepoint: 80599 ns, Cleanup: 125100 ns, At safepoint: 900 ns, Leaving safepoint: 12500 ns, Total: 219099 ns
+[15.839s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 252640250 ns, Reaching safepoint: 2096393 ns, Cleanup: 148100 ns, At safepoint: 1100 ns, Leaving safepoint: 21600 ns, Total: 2267193 ns
+[16.801s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 962270263 ns, Reaching safepoint: 78100 ns, Cleanup: 152699 ns, At safepoint: 1000 ns, Leaving safepoint: 10700 ns, Total: 242499 ns
+[17.801s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000112637 ns, Reaching safepoint: 90599 ns, Cleanup: 80400 ns, At safepoint: 1400 ns, Leaving safepoint: 25300 ns, Total: 197699 ns
+[18.803s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000899516 ns, Reaching safepoint: 955897 ns, Cleanup: 14500 ns, At safepoint: 1300 ns, Leaving safepoint: 22800 ns, Total: 994497 ns
+[19.808s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1004033496 ns, Reaching safepoint: 77800 ns, Cleanup: 18100 ns, At safepoint: 1300 ns, Leaving safepoint: 11400 ns, Total: 108600 ns
+[20.811s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000107510 ns, Reaching safepoint: 3156889 ns, Cleanup: 11700 ns, At safepoint: 1800 ns, Leaving safepoint: 20700 ns, Total: 3191089 ns
+[21.811s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000116610 ns, Reaching safepoint: 80999 ns, Cleanup: 49700 ns, At safepoint: 1100 ns, Leaving safepoint: 8600 ns, Total: 140399 ns
+[22.193s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 381481307 ns, Reaching safepoint: 5800 ns, Cleanup: 145999 ns, At safepoint: 1100 ns, Leaving safepoint: 9500 ns, Total: 162399 ns
+[22.554s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 361547275 ns, Reaching safepoint: 5000 ns, Cleanup: 170499 ns, At safepoint: 900 ns, Leaving safepoint: 1500 ns, Total: 177899 ns
+[22.744s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 189713257 ns, Reaching safepoint: 82500 ns, Cleanup: 233799 ns, At safepoint: 1200 ns, Leaving safepoint: 17300 ns, Total: 334799 ns
+[22.756s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 8903770 ns, Reaching safepoint: 2112093 ns, Cleanup: 12700 ns, At safepoint: 1300 ns, Leaving safepoint: 11699 ns, Total: 2137792 ns
+[23.003s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 247089163 ns, Reaching safepoint: 81000 ns, Cleanup: 134599 ns, At safepoint: 1100 ns, Leaving safepoint: 9200 ns, Total: 225899 ns
+[23.016s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 59000 ns, Reaching safepoint: 2467592 ns, Cleanup: 2200 ns, At safepoint: 700 ns, Leaving safepoint: 11011162 ns, Total: 13481654 ns
+[23.316s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 296510695 ns, Reaching safepoint: 2954590 ns, Cleanup: 140800 ns, At safepoint: 1400 ns, Leaving safepoint: 21999 ns, Total: 3118789 ns
+[23.581s][info ][gc,start       ] GC(6) Pause Young (Allocation Failure)
+[23.726s][debug][gc,phases      ] GC(6) Scavenge 144.069ms
+[23.726s][debug][gc,ref         ] GC(6) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: false
+[23.727s][debug][gc,ref         ] GC(6) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[23.727s][debug][gc,ref         ] GC(6) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: false
+[23.727s][debug][gc,phases      ] GC(6) Reference Processing 1.310ms
+[23.728s][debug][gc,phases      ] GC(6)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Total                          Min: 0, Avg: 181.8, Max: 407, Diff: 407, Sum: 727, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Dead                           Min: 0, Avg:  7.2, Max: 24, Diff: 24, Sum: 29, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Total                          Min: 0, Avg: 18.5, Max: 64, Diff: 64, Sum: 74, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)   StringTable Weak               Min:  0.0, Avg:  0.3, Max:  0.4, Diff:  0.4, Sum:  1.3, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Dead                           Min: 0, Avg:  8.5, Max: 12, Diff: 12, Sum: 34, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Total                          Min: 0, Avg: 11041.5, Max: 15616, Diff: 15616, Sum: 44166, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.1, Max:  0.2, Diff:  0.2, Sum:  0.5, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Dead                           Min: 0, Avg: 1027.8, Max: 1430, Diff: 1430, Sum: 4111, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Total                          Min: 0, Avg: 4268.8, Max: 5760, Diff: 5760, Sum: 17075, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Total                          Min: 0, Avg: 29.8, Max: 119, Diff: 119, Sum: 119, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[23.728s][debug][gc,phases      ] GC(6) Weak Processing 0.832ms
+[23.728s][debug][gc,age         ] GC(6) Desired survivor size 536870912 bytes, new threshold 7 (max threshold 15)
+[23.728s][info ][gc,heap        ] GC(6) PSYoungGen: 1127291K(1572864K)->165179K(1572864K) Eden: 1048576K(1048576K)->0K(1048576K) From: 78715K(524288K)->165179K(524288K)
+[23.728s][info ][gc,heap        ] GC(6) ParOldGen: 5939K(6144K)->6264K(6656K)
+[23.728s][info ][gc,metaspace   ] GC(6) Metaspace: 95808K(96768K)->95808K(96768K) NonClass: 80347K(80896K)->80347K(80896K) Class: 15461K(15872K)->15461K(15872K)
+[23.728s][info ][gc             ] GC(6) Pause Young (Allocation Failure) 1106M->167M(1542M) 146.365ms
+[23.728s][info ][gc,cpu         ] GC(6) User=0.31s Sys=0.06s Real=0.15s
+[23.735s][info ][safepoint      ] Safepoint "ParallelGCFailedAllocation", Time since last: 264906702 ns, Reaching safepoint: 390099 ns, Cleanup: 135400 ns, At safepoint: 146423903 ns, Leaving safepoint: 7560975 ns, Total: 154510377 ns
+[24.076s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 340436746 ns, Reaching safepoint: 86299 ns, Cleanup: 136200 ns, At safepoint: 900 ns, Leaving safepoint: 13400 ns, Total: 236799 ns
+[24.339s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 262891409 ns, Reaching safepoint: 83099 ns, Cleanup: 153500 ns, At safepoint: 1000 ns, Leaving safepoint: 6000 ns, Total: 243599 ns
+[24.728s][info ][gc,start       ] GC(7) Pause Young (Metadata GC Threshold)
+[24.875s][debug][gc,phases      ] GC(7) Scavenge 146.832ms
+[24.876s][debug][gc,ref         ] GC(7) ReferenceProcessor::execute queues: 2, RefProcThreadModel::Multi, marks_oops_alive: false
+[24.876s][debug][gc,ref         ] GC(7) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: true
+[24.876s][debug][gc,ref         ] GC(7) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[24.876s][debug][gc,phases      ] GC(7) Reference Processing 0.681ms
+[24.878s][debug][gc,phases      ] GC(7)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Total                          Min: 0, Avg: 202.2, Max: 809, Diff: 809, Sum: 809, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Dead                           Min: 0, Avg:  0.2, Max: 1, Diff: 1, Sum: 1, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Total                          Min: 0, Avg: 18.8, Max: 75, Diff: 75, Sum: 75, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)   StringTable Weak               Min:  0.0, Avg:  0.3, Max:  1.2, Diff:  1.2, Sum:  1.2, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Dead                           Min: 0, Avg:  1.5, Max: 6, Diff: 6, Sum: 6, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Total                          Min: 0, Avg: 11302.2, Max: 45209, Diff: 45209, Sum: 45209, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.1, Max:  0.4, Diff:  0.4, Sum:  0.4, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Dead                           Min: 0, Avg: 77.5, Max: 310, Diff: 310, Sum: 310, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Total                          Min: 0, Avg: 3491.2, Max: 13965, Diff: 13965, Sum: 13965, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Total                          Min: 0, Avg: 22.0, Max: 88, Diff: 88, Sum: 88, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[24.878s][debug][gc,phases      ] GC(7) Weak Processing 1.932ms
+[24.878s][debug][gc,age         ] GC(7) Desired survivor size 213385216 bytes, new threshold 6 (max threshold 15)
+[24.878s][info ][gc,heap        ] GC(7) PSYoungGen: 283595K(1572864K)->168281K(1572864K) Eden: 118416K(1048576K)->0K(1048576K) From: 165179K(524288K)->168281K(524288K)
+[24.878s][info ][gc,heap        ] GC(7) ParOldGen: 6264K(6656K)->6272K(6656K)
+[24.878s][info ][gc,metaspace   ] GC(7) Metaspace: 98548K(99648K)->98548K(99648K) NonClass: 82622K(83264K)->82622K(83264K) Class: 15926K(16384K)->15926K(16384K)
+[24.878s][info ][gc             ] GC(7) Pause Young (Metadata GC Threshold) 283M->170M(1542M) 149.566ms
+[24.878s][info ][gc,cpu         ] GC(7) User=0.25s Sys=0.05s Real=0.15s
+[24.878s][debug][gc,phases      ] GC(8) Pre Compact 0.013ms
+[24.878s][info ][gc,start       ] GC(8) Pause Full (Metadata GC Threshold)
+[24.878s][info ][gc,phases,start] GC(8) Marking Phase
+[25.040s][debug][gc,phases      ] GC(8) Par Mark 162.327ms
+[25.041s][debug][gc,ref         ] GC(8) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: false
+[25.043s][debug][gc,ref         ] GC(8) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: true
+[25.044s][debug][gc,ref         ] GC(8) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[25.044s][debug][gc,phases      ] GC(8) Reference Processing 3.162ms
+[25.046s][debug][gc,phases      ] GC(8)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Total                          Min: 0, Avg: 202.2, Max: 448, Diff: 448, Sum: 809, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Total                          Min: 0, Avg: 18.8, Max: 64, Diff: 64, Sum: 75, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)   StringTable Weak               Min:  0.0, Avg:  0.1, Max:  0.3, Diff:  0.3, Sum:  0.6, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Total                          Min: 0, Avg: 11302.2, Max: 23296, Diff: 23296, Sum: 45209, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.0, Max:  0.1, Diff:  0.1, Sum:  0.2, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Total                          Min: 0, Avg: 3491.2, Max: 7008, Diff: 7008, Sum: 13965, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Total                          Min: 0, Avg: 22.0, Max: 54, Diff: 54, Sum: 88, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.046s][debug][gc,phases      ] GC(8)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.047s][debug][gc,phases      ] GC(8)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[25.047s][debug][gc,phases      ] GC(8)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.047s][debug][gc,phases      ] GC(8)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.047s][debug][gc,phases      ] GC(8)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[25.047s][debug][gc,phases      ] GC(8)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.047s][debug][gc,phases      ] GC(8)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.047s][debug][gc,phases      ] GC(8)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[25.047s][debug][gc,phases      ] GC(8)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.047s][debug][gc,phases      ] GC(8)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[25.047s][debug][gc,phases      ] GC(8) Weak Processing 2.940ms
+[25.047s][debug][gc,phases      ] GC(8) ClassLoaderData 0.100ms
+[25.047s][debug][gc,phases      ] GC(8) Trigger cleanups 0.000ms
+[25.081s][debug][gc,phases      ] GC(8) Purge Unlinked NMethods 0.552ms
+[25.081s][debug][gc,phases      ] GC(8) Unregister NMethods 0.097ms
+[25.081s][debug][gc,phases      ] GC(8) Free Code Blobs 0.099ms
+[25.081s][debug][gc,phases      ] GC(8) Class Unloading 34.650ms
+[25.081s][debug][gc,phases      ] GC(8) Report Object Count 0.001ms
+[25.081s][info ][gc,phases      ] GC(8) Marking Phase 203.138ms
+[25.081s][info ][gc,phases,start] GC(8) Summary Phase
+[25.081s][info ][gc,phases      ] GC(8) Summary Phase 0.010ms
+[25.081s][info ][gc,phases,start] GC(8) Adjust Roots
+[25.107s][info ][gc,phases      ] GC(8) Adjust Roots 25.736ms
+[25.107s][info ][gc,phases,start] GC(8) Compaction Phase
+[26.091s][info ][gc,phases      ] GC(8) Compaction Phase 984.054ms
+[26.091s][info ][gc,phases,start] GC(8) Post Compact
+[26.093s][debug][gc,phases      ] GC(8) Purge Class Loader Data 1.452ms
+[26.096s][info ][gc,phases      ] GC(8) Post Compact 5.015ms
+[26.096s][info ][gc,heap        ] GC(8) PSYoungGen: 168281K(1572864K)->167851K(1572864K) Eden: 0K(1048576K)->0K(1048576K) From: 168281K(524288K)->167851K(524288K)
+[26.096s][info ][gc,heap        ] GC(8) ParOldGen: 6272K(6656K)->6237K(6656K)
+[26.096s][info ][gc,metaspace   ] GC(8) Metaspace: 98548K(99648K)->98548K(99648K) NonClass: 82622K(83264K)->82622K(83264K) Class: 15926K(16384K)->15926K(16384K)
+[26.096s][info ][gc             ] GC(8) Pause Full (Metadata GC Threshold) 170M->170M(1542M) 1218.078ms
+[26.096s][info ][gc,cpu         ] GC(8) User=1.97s Sys=0.02s Real=1.22s
+[26.096s][info ][safepoint      ] Safepoint "CollectForMetadataAllocation", Time since last: 389061081 ns, Reaching safepoint: 5400 ns, Cleanup: 103200 ns, At safepoint: 1367772963 ns, Leaving safepoint: 14200 ns, Total: 1367895763 ns
+[26.621s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 521693138 ns, Reaching safepoint: 5600 ns, Cleanup: 184800 ns, At safepoint: 1000 ns, Leaving safepoint: 3301588 ns, Total: 3492988 ns
+[26.743s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 121775889 ns, Reaching safepoint: 5400 ns, Cleanup: 123600 ns, At safepoint: 800 ns, Leaving safepoint: 11500 ns, Total: 141300 ns
+[26.746s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 2076093 ns, Reaching safepoint: 953097 ns, Cleanup: 12300 ns, At safepoint: 800 ns, Leaving safepoint: 4900 ns, Total: 971097 ns
+[26.867s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 117451303 ns, Reaching safepoint: 2572792 ns, Cleanup: 147499 ns, At safepoint: 900 ns, Leaving safepoint: 14400 ns, Total: 2735591 ns
+[27.073s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 206061805 ns, Reaching safepoint: 81299 ns, Cleanup: 149500 ns, At safepoint: 900 ns, Leaving safepoint: 13200 ns, Total: 244899 ns
+[27.298s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 225106040 ns, Reaching safepoint: 5400 ns, Cleanup: 141700 ns, At safepoint: 1000 ns, Leaving safepoint: 9400 ns, Total: 157500 ns
+[27.655s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 356468397 ns, Reaching safepoint: 5800 ns, Cleanup: 137999 ns, At safepoint: 900 ns, Leaving safepoint: 11900 ns, Total: 156599 ns
+[27.655s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 594198 ns, Reaching safepoint: 45700 ns, Cleanup: 6000 ns, At safepoint: 600 ns, Leaving safepoint: 12100 ns, Total: 64400 ns
+[27.864s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 207981798 ns, Reaching safepoint: 166399 ns, Cleanup: 146400 ns, At safepoint: 1100 ns, Leaving safepoint: 8400 ns, Total: 322299 ns
+[28.204s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 336485464 ns, Reaching safepoint: 94500 ns, Cleanup: 163299 ns, At safepoint: 1100 ns, Leaving safepoint: 3737788 ns, Total: 3996687 ns
+[28.375s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 170214725 ns, Reaching safepoint: 5600 ns, Cleanup: 161200 ns, At safepoint: 1000 ns, Leaving safepoint: 15400 ns, Total: 183200 ns
+[28.811s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 436026428 ns, Reaching safepoint: 6100 ns, Cleanup: 165400 ns, At safepoint: 1100 ns, Leaving safepoint: 206399 ns, Total: 378999 ns
+[29.049s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 237755898 ns, Reaching safepoint: 6400 ns, Cleanup: 145799 ns, At safepoint: 1000 ns, Leaving safepoint: 10700 ns, Total: 163899 ns
+[29.255s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 205502707 ns, Reaching safepoint: 80099 ns, Cleanup: 152200 ns, At safepoint: 1100 ns, Leaving safepoint: 91399 ns, Total: 324798 ns
+[29.440s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 184839877 ns, Reaching safepoint: 5400 ns, Cleanup: 138699 ns, At safepoint: 1200 ns, Leaving safepoint: 2000 ns, Total: 147299 ns
+[29.730s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 289596623 ns, Reaching safepoint: 131899 ns, Cleanup: 163900 ns, At safepoint: 1200 ns, Leaving safepoint: 14900 ns, Total: 311899 ns
+[29.733s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 3043990 ns, Reaching safepoint: 77399 ns, Cleanup: 4800 ns, At safepoint: 700 ns, Leaving safepoint: 13000 ns, Total: 95899 ns
+[29.934s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 200728823 ns, Reaching safepoint: 82500 ns, Cleanup: 173499 ns, At safepoint: 8300 ns, Leaving safepoint: 14800 ns, Total: 279099 ns
+[30.201s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 265689603 ns, Reaching safepoint: 975997 ns, Cleanup: 139499 ns, At safepoint: 1200 ns, Leaving safepoint: 18100 ns, Total: 1134796 ns
+[30.216s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 1806394 ns, Reaching safepoint: 2400192 ns, Cleanup: 10100 ns, At safepoint: 800 ns, Leaving safepoint: 11023163 ns, Total: 13434255 ns
+[30.653s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 436514527 ns, Reaching safepoint: 25000 ns, Cleanup: 258999 ns, At safepoint: 1100 ns, Leaving safepoint: 25400 ns, Total: 310499 ns
+[31.070s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 416954993 ns, Reaching safepoint: 87999 ns, Cleanup: 144400 ns, At safepoint: 900 ns, Leaving safepoint: 16100 ns, Total: 249399 ns
+[31.577s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 506528690 ns, Reaching safepoint: 5900 ns, Cleanup: 144700 ns, At safepoint: 900 ns, Leaving safepoint: 6300 ns, Total: 157800 ns
+[32.190s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 612885231 ns, Reaching safepoint: 518499 ns, Cleanup: 143399 ns, At safepoint: 1100 ns, Leaving safepoint: 23200 ns, Total: 686198 ns
+[32.882s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 691312567 ns, Reaching safepoint: 5100 ns, Cleanup: 146700 ns, At safepoint: 1000 ns, Leaving safepoint: 11900 ns, Total: 164700 ns
+[33.062s][info ][safepoint      ] Safepoint "ParallelGCFailedAllocation", Time since last: 179780793 ns, Reaching safepoint: 432198 ns, Cleanup: 34000 ns, At safepoint: 5100 ns, Leaving safepoint: 15900 ns, Total: 487198 ns
+[33.066s][info ][gc,start       ] GC(9) Pause Young (GCLocker Initiated GC)
+[33.287s][debug][gc,phases      ] GC(9) Scavenge 221.140ms
+[33.287s][debug][gc,ref         ] GC(9) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: false
+[33.288s][debug][gc,ref         ] GC(9) Skipped KeepAliveFinalRefsPhase of Reference Processing: no references
+[33.288s][debug][gc,ref         ] GC(9) ReferenceProcessor::execute queues: 2, RefProcThreadModel::Multi, marks_oops_alive: false
+[33.288s][debug][gc,phases      ] GC(9) Reference Processing 1.329ms
+[33.289s][debug][gc,phases      ] GC(9)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Total                          Min: 0, Avg: 243.2, Max: 397, Diff: 397, Sum: 973, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Dead                           Min: 0, Avg:  0.8, Max: 3, Diff: 3, Sum: 3, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Total                          Min: 0, Avg: 20.2, Max: 64, Diff: 64, Sum: 81, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)   StringTable Weak               Min:  0.1, Avg:  0.4, Max:  0.7, Diff:  0.6, Sum:  1.8, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Dead                           Min: 0, Avg:  3.2, Max: 6, Diff: 6, Sum: 13, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Total                          Min: 1664, Avg: 11861.0, Max: 17280, Diff: 15616, Sum: 47444, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.1, Max:  0.2, Diff:  0.2, Sum:  0.5, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Dead                           Min: 0, Avg: 191.8, Max: 281, Diff: 281, Sum: 767, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Total                          Min: 0, Avg: 4033.5, Max: 5525, Diff: 5525, Sum: 16134, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Total                          Min: 0, Avg: 17.5, Max: 52, Diff: 52, Sum: 70, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[33.289s][debug][gc,phases      ] GC(9) Weak Processing 0.869ms
+[33.289s][debug][gc,age         ] GC(9) Desired survivor size 258998272 bytes, new threshold 5 (max threshold 15)
+[33.289s][info ][gc,heap        ] GC(9) PSYoungGen: 1216427K(1572864K)->208355K(1799680K) Eden: 1048576K(1048576K)->0K(1591296K) From: 167851K(524288K)->208355K(208384K)
+[33.289s][info ][gc,heap        ] GC(9) ParOldGen: 6239K(6656K)->8276K(8704K)
+[33.289s][info ][gc,metaspace   ] GC(9) Metaspace: 105329K(106624K)->105329K(106624K) NonClass: 88477K(89216K)->88477K(89216K) Class: 16851K(17408K)->16851K(17408K)
+[33.289s][info ][gc             ] GC(9) Pause Young (GCLocker Initiated GC) 1194M->211M(1766M) 223.438ms
+[33.289s][info ][gc,cpu         ] GC(9) User=0.33s Sys=0.10s Real=0.22s
+[33.293s][info ][safepoint      ] Safepoint "ParallelGCSystemGC", Time since last: 3678688 ns, Reaching safepoint: 78299 ns, Cleanup: 2200 ns, At safepoint: 223498846 ns, Leaving safepoint: 4291386 ns, Total: 227870731 ns
+[33.840s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 546387356 ns, Reaching safepoint: 96799 ns, Cleanup: 156100 ns, At safepoint: 1100 ns, Leaving safepoint: 15400 ns, Total: 269399 ns
+[34.279s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 438855419 ns, Reaching safepoint: 5400 ns, Cleanup: 139200 ns, At safepoint: 900 ns, Leaving safepoint: 2200 ns, Total: 147700 ns
+[34.281s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 1747994 ns, Reaching safepoint: 78899 ns, Cleanup: 8400 ns, At safepoint: 700 ns, Leaving safepoint: 6900 ns, Total: 94899 ns
+[35.034s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 752989861 ns, Reaching safepoint: 87700 ns, Cleanup: 136099 ns, At safepoint: 1500 ns, Leaving safepoint: 15500 ns, Total: 240799 ns
+[35.651s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 616543921 ns, Reaching safepoint: 81799 ns, Cleanup: 159400 ns, At safepoint: 1100 ns, Leaving safepoint: 15300 ns, Total: 257599 ns
+[36.453s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 802224794 ns, Reaching safepoint: 5600 ns, Cleanup: 140500 ns, At safepoint: 800 ns, Leaving safepoint: 1800 ns, Total: 148700 ns
+[37.294s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 830373299 ns, Reaching safepoint: 231800 ns, Cleanup: 142299 ns, At safepoint: 1200 ns, Leaving safepoint: 9910767 ns, Total: 10286066 ns
+[37.935s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 638742046 ns, Reaching safepoint: 2134292 ns, Cleanup: 139300 ns, At safepoint: 1200 ns, Leaving safepoint: 10300 ns, Total: 2285092 ns
+[38.935s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000112727 ns, Reaching safepoint: 83500 ns, Cleanup: 126699 ns, At safepoint: 1200 ns, Leaving safepoint: 10700 ns, Total: 222099 ns
+[39.939s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1003034718 ns, Reaching safepoint: 6099 ns, Cleanup: 126700 ns, At safepoint: 1100 ns, Leaving safepoint: 2200 ns, Total: 136099 ns
+[40.939s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000106627 ns, Reaching safepoint: 78800 ns, Cleanup: 145199 ns, At safepoint: 1300 ns, Leaving safepoint: 21900 ns, Total: 247199 ns
+[41.726s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 786837047 ns, Reaching safepoint: 6000 ns, Cleanup: 169199 ns, At safepoint: 1000 ns, Leaving safepoint: 1700 ns, Total: 177899 ns
+[42.463s][info ][safepoint      ] Safepoint "ICBufferFull", Time since last: 736496717 ns, Reaching safepoint: 6500 ns, Cleanup: 185700 ns, At safepoint: 1000 ns, Leaving safepoint: 17600 ns, Total: 210800 ns
+[42.621s][info ][gc,start       ] GC(10) Pause Young (Allocation Failure)
+[42.819s][debug][gc,phases      ] GC(10) Scavenge 197.837ms
+[42.819s][debug][gc,ref         ] GC(10) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: false
+[42.820s][debug][gc,ref         ] GC(10) ReferenceProcessor::execute queues: 4, RefProcThreadModel::Multi, marks_oops_alive: true
+[42.823s][debug][gc,ref         ] GC(10) ReferenceProcessor::execute queues: 1, RefProcThreadModel::Single, marks_oops_alive: false
+[42.823s][debug][gc,phases      ] GC(10) Reference Processing 3.452ms
+[42.823s][debug][gc,phases      ] GC(10)   VM Weak                        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Total                          Min: 0, Avg: 243.5, Max: 512, Diff: 512, Sum: 974, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)   ObjectSynchronizer Weak        Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Total                          Min: 0, Avg: 20.5, Max: 64, Diff: 64, Sum: 82, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)   JVMTI Tag Weak OopStorage      Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)   StringTable Weak               Min:  0.0, Avg:  0.3, Max:  0.4, Diff:  0.4, Sum:  1.3, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Dead                           Min: 0, Avg:  0.5, Max: 1, Diff: 1, Sum: 2, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Total                          Min: 0, Avg: 11979.5, Max: 16064, Diff: 16064, Sum: 47918, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)   ResolvedMethodTable Weak       Min:  0.0, Avg:  0.1, Max:  0.2, Diff:  0.2, Sum:  0.5, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Dead                           Min: 0, Avg: 12.2, Max: 41, Diff: 41, Sum: 49, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Total                          Min: 0, Avg: 4046.8, Max: 5519, Diff: 5519, Sum: 16187, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)   JNI Weak                       Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Total                          Min: 0, Avg: 14.8, Max: 59, Diff: 59, Sum: 59, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)   StringDedup Table Weak         Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)   StringDedup Requests0 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)   StringDedup Requests1 Weak     Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)   Weak JFR Old Object Samples    Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Dead                           Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10)     Total                          Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 4
+[42.823s][debug][gc,phases      ] GC(10) Weak Processing 0.852ms
+[42.823s][debug][gc,age         ] GC(10) Desired survivor size 276299776 bytes, new threshold 4 (max threshold 15)
+[42.823s][info ][gc,heap        ] GC(10) PSYoungGen: 1799651K(1799680K)->189464K(1781248K) Eden: 1591296K(1591296K)->0K(1591296K) From: 208355K(208384K)->189464K(189952K)
+[42.823s][info ][gc,heap        ] GC(10) ParOldGen: 8278K(8704K)->60110K(60416K)
+[42.823s][info ][gc,metaspace   ] GC(10) Metaspace: 106449K(107776K)->106449K(107776K) NonClass: 89554K(90304K)->89554K(90304K) Class: 16894K(17472K)->16894K(17472K)
+[42.823s][info ][gc             ] GC(10) Pause Young (Allocation Failure) 1765M->243M(1798M) 202.262ms
+[42.824s][info ][gc,cpu         ] GC(10) User=0.33s Sys=0.06s Real=0.20s
+[42.824s][info ][safepoint      ] Safepoint "ParallelGCFailedAllocation", Time since last: 158554665 ns, Reaching safepoint: 6400 ns, Cleanup: 37500 ns, At safepoint: 202332719 ns, Leaving safepoint: 10999 ns, Total: 202387618 ns
+[43.824s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000090031 ns, Reaching safepoint: 6200 ns, Cleanup: 100900 ns, At safepoint: 1200 ns, Leaving safepoint: 23800 ns, Total: 132100 ns
+[44.824s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000099430 ns, Reaching safepoint: 5800 ns, Cleanup: 117000 ns, At safepoint: 1100 ns, Leaving safepoint: 23600 ns, Total: 147500 ns
+[45.824s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000103330 ns, Reaching safepoint: 6000 ns, Cleanup: 69900 ns, At safepoint: 1400 ns, Leaving safepoint: 1600 ns, Total: 78900 ns
+[46.831s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1002197923 ns, Reaching safepoint: 1035697 ns, Cleanup: 47700 ns, At safepoint: 1300 ns, Leaving safepoint: 3428488 ns, Total: 4513185 ns
+[47.833s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1002477523 ns, Reaching safepoint: 6200 ns, Cleanup: 47400 ns, At safepoint: 1000 ns, Leaving safepoint: 1600 ns, Total: 56200 ns
+[48.834s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000094330 ns, Reaching safepoint: 6500 ns, Cleanup: 32500 ns, At safepoint: 1200 ns, Leaving safepoint: 1400 ns, Total: 41600 ns
+[49.836s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1002094624 ns, Reaching safepoint: 6600 ns, Cleanup: 76699 ns, At safepoint: 1100 ns, Leaving safepoint: 1800 ns, Total: 86199 ns
+[50.836s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000098508 ns, Reaching safepoint: 6300 ns, Cleanup: 45800 ns, At safepoint: 1300 ns, Leaving safepoint: 1700 ns, Total: 55100 ns
+[51.836s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000105495 ns, Reaching safepoint: 6000 ns, Cleanup: 35700 ns, At safepoint: 900 ns, Leaving safepoint: 1400 ns, Total: 44000 ns
+[52.836s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000094794 ns, Reaching safepoint: 5900 ns, Cleanup: 22000 ns, At safepoint: 900 ns, Leaving safepoint: 1200 ns, Total: 30000 ns
+[53.836s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000102295 ns, Reaching safepoint: 6800 ns, Cleanup: 186799 ns, At safepoint: 1000 ns, Leaving safepoint: 15900 ns, Total: 210499 ns
+[54.839s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1001896889 ns, Reaching safepoint: 7200 ns, Cleanup: 106899 ns, At safepoint: 1000 ns, Leaving safepoint: 2000 ns, Total: 117099 ns
+[55.839s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000124295 ns, Reaching safepoint: 7600 ns, Cleanup: 74800 ns, At safepoint: 1300 ns, Leaving safepoint: 2100 ns, Total: 85800 ns
+[56.839s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000109094 ns, Reaching safepoint: 7500 ns, Cleanup: 18800 ns, At safepoint: 1100 ns, Leaving safepoint: 1700 ns, Total: 29100 ns
+[57.839s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000104995 ns, Reaching safepoint: 6900 ns, Cleanup: 47400 ns, At safepoint: 1200 ns, Leaving safepoint: 2100 ns, Total: 57600 ns
+[58.839s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000105310 ns, Reaching safepoint: 6900 ns, Cleanup: 26100 ns, At safepoint: 1300 ns, Leaving safepoint: 2200 ns, Total: 36500 ns
+[59.839s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000105920 ns, Reaching safepoint: 7300 ns, Cleanup: 41899 ns, At safepoint: 1200 ns, Leaving safepoint: 1700 ns, Total: 52099 ns
+[61.230s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1390840199 ns, Reaching safepoint: 6500 ns, Cleanup: 49400 ns, At safepoint: 1100 ns, Leaving safepoint: 1500 ns, Total: 58500 ns
+[62.419s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1188127784 ns, Reaching safepoint: 340099 ns, Cleanup: 79199 ns, At safepoint: 1200 ns, Leaving safepoint: 15400 ns, Total: 435898 ns
+[63.422s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1002605411 ns, Reaching safepoint: 81200 ns, Cleanup: 66200 ns, At safepoint: 1200 ns, Leaving safepoint: 5000 ns, Total: 153600 ns
+[64.422s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000106919 ns, Reaching safepoint: 6100 ns, Cleanup: 97300 ns, At safepoint: 1100 ns, Leaving safepoint: 1700 ns, Total: 106200 ns
+[65.422s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000109620 ns, Reaching safepoint: 6800 ns, Cleanup: 59199 ns, At safepoint: 1100 ns, Leaving safepoint: 1700 ns, Total: 68799 ns
+[66.422s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000101715 ns, Reaching safepoint: 5700 ns, Cleanup: 25000 ns, At safepoint: 1000 ns, Leaving safepoint: 1100 ns, Total: 32800 ns
+[67.422s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000207495 ns, Reaching safepoint: 6000 ns, Cleanup: 28100 ns, At safepoint: 1200 ns, Leaving safepoint: 16200 ns, Total: 51500 ns
+[68.423s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000065096 ns, Reaching safepoint: 79799 ns, Cleanup: 25400 ns, At safepoint: 1100 ns, Leaving safepoint: 9000 ns, Total: 115299 ns
+[69.423s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000101096 ns, Reaching safepoint: 6400 ns, Cleanup: 19800 ns, At safepoint: 1000 ns, Leaving safepoint: 1600 ns, Total: 28800 ns
+[70.423s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000109495 ns, Reaching safepoint: 6900 ns, Cleanup: 25000 ns, At safepoint: 1600 ns, Leaving safepoint: 2300 ns, Total: 35800 ns
+[71.425s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1002604187 ns, Reaching safepoint: 6000 ns, Cleanup: 20700 ns, At safepoint: 1300 ns, Leaving safepoint: 1700 ns, Total: 29700 ns
+[72.426s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000110396 ns, Reaching safepoint: 7000 ns, Cleanup: 99099 ns, At safepoint: 1100 ns, Leaving safepoint: 1600 ns, Total: 108799 ns
+[73.426s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000096496 ns, Reaching safepoint: 6600 ns, Cleanup: 75900 ns, At safepoint: 1100 ns, Leaving safepoint: 1600 ns, Total: 85200 ns
+[74.426s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000100498 ns, Reaching safepoint: 6300 ns, Cleanup: 51600 ns, At safepoint: 1300 ns, Leaving safepoint: 1700 ns, Total: 60900 ns
+[75.426s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000098312 ns, Reaching safepoint: 5800 ns, Cleanup: 17800 ns, At safepoint: 1100 ns, Leaving safepoint: 1600 ns, Total: 26300 ns
+[76.428s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1001391407 ns, Reaching safepoint: 81300 ns, Cleanup: 126800 ns, At safepoint: 1300 ns, Leaving safepoint: 8900 ns, Total: 218300 ns
+[77.428s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000103212 ns, Reaching safepoint: 7200 ns, Cleanup: 116199 ns, At safepoint: 17300 ns, Leaving safepoint: 1900 ns, Total: 142599 ns
+[79.428s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 2000177224 ns, Reaching safepoint: 6700 ns, Cleanup: 11700 ns, At safepoint: 1100 ns, Leaving safepoint: 1600 ns, Total: 21100 ns
+[82.428s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 3000239138 ns, Reaching safepoint: 7800 ns, Cleanup: 12900 ns, At safepoint: 1100 ns, Leaving safepoint: 2100 ns, Total: 23900 ns
+[87.431s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 5003035805 ns, Reaching safepoint: 7800 ns, Cleanup: 12500 ns, At safepoint: 1200 ns, Leaving safepoint: 1700 ns, Total: 23200 ns
+[91.432s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 4000330107 ns, Reaching safepoint: 7100 ns, Cleanup: 11900 ns, At safepoint: 1100 ns, Leaving safepoint: 1300 ns, Total: 21400 ns
+[94.432s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 3000279809 ns, Reaching safepoint: 6800 ns, Cleanup: 10100 ns, At safepoint: 1100 ns, Leaving safepoint: 1300 ns, Total: 19300 ns
+[96.432s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 2000180272 ns, Reaching safepoint: 8200 ns, Cleanup: 11800 ns, At safepoint: 1600 ns, Leaving safepoint: 2000 ns, Total: 23600 ns
+[104.433s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 8000601566 ns, Reaching safepoint: 6700 ns, Cleanup: 9300 ns, At safepoint: 1000 ns, Leaving safepoint: 1600 ns, Total: 18600 ns
+[108.433s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 4000325599 ns, Reaching safepoint: 7200 ns, Cleanup: 11400 ns, At safepoint: 1200 ns, Leaving safepoint: 1900 ns, Total: 21700 ns
+[119.434s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 11000849593 ns, Reaching safepoint: 6900 ns, Cleanup: 8100 ns, At safepoint: 1000 ns, Leaving safepoint: 1200 ns, Total: 17200 ns
+[121.278s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1843645070 ns, Reaching safepoint: 7000 ns, Cleanup: 11400 ns, At safepoint: 1500 ns, Leaving safepoint: 1600 ns, Total: 21500 ns
+[132.279s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 11000850689 ns, Reaching safepoint: 9100 ns, Cleanup: 15900 ns, At safepoint: 1100 ns, Leaving safepoint: 1500 ns, Total: 27600 ns
+[133.279s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000119340 ns, Reaching safepoint: 6500 ns, Cleanup: 12000 ns, At safepoint: 1300 ns, Leaving safepoint: 1500 ns, Total: 21300 ns
+[136.322s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 3043449373 ns, Reaching safepoint: 3900 ns, Cleanup: 18800 ns, At safepoint: 600 ns, Leaving safepoint: 4700 ns, Total: 28000 ns
+[137.322s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1000122339 ns, Reaching safepoint: 8100 ns, Cleanup: 25600 ns, At safepoint: 1100 ns, Leaving safepoint: 1800 ns, Total: 36600 ns
+[141.323s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 4000343483 ns, Reaching safepoint: 6500 ns, Cleanup: 7000 ns, At safepoint: 1100 ns, Leaving safepoint: 1300 ns, Total: 15900 ns
+[167.325s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 26001906911 ns, Reaching safepoint: 6800 ns, Cleanup: 13000 ns, At safepoint: 1100 ns, Leaving safepoint: 1500 ns, Total: 22400 ns
+[196.327s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 29002123310 ns, Reaching safepoint: 4200 ns, Cleanup: 6399 ns, At safepoint: 1000 ns, Leaving safepoint: 1100 ns, Total: 12699 ns
+[197.420s][info ][safepoint      ] Safepoint "Cleanup", Time since last: 1093071114 ns, Reaching safepoint: 3400 ns, Cleanup: 8800 ns, At safepoint: 700 ns, Leaving safepoint: 4500 ns, Total: 17400 ns
+[197.468s][info ][safepoint      ] Safepoint "JFRSafepointWrite", Time since last: 47462140 ns, Reaching safepoint: 152299 ns, Cleanup: 11300 ns, At safepoint: 11900 ns, Leaving safepoint: 3300 ns, Total: 178799 ns
+[197.470s][info ][gc,heap,exit   ] Heap
+[197.470s][info ][gc,heap,exit   ]  PSYoungGen      total 1781248K, used 1390026K [0x0000000780000000, 0x0000000800000000, 0x0000000800000000)
+[197.470s][info ][gc,heap,exit   ]   eden space 1591296K, 75% used [0x0000000780000000,0x00000007c946c838,0x00000007e1200000)
+[197.470s][info ][gc,heap,exit   ]   from space 189952K, 99% used [0x00000007e1200000,0x00000007ecb061f8,0x00000007ecb80000)
+[197.470s][info ][gc,heap,exit   ]   to   space 269824K, 0% used [0x00000007ef880000,0x00000007ef880000,0x0000000800000000)
+[197.470s][info ][gc,heap,exit   ]  ParOldGen       total 60416K, used 60110K [0x00000006c0000000, 0x00000006c3b00000, 0x0000000780000000)
+[197.470s][info ][gc,heap,exit   ]   object space 60416K, 99% used [0x00000006c0000000,0x00000006c3ab3850,0x00000006c3b00000)
+[197.470s][info ][gc,heap,exit   ]  Metaspace       used 107746K, committed 109056K, reserved 1179648K
+[197.470s][info ][gc,heap,exit   ]   class space    used 17022K, committed 17600K, reserved 1048576K

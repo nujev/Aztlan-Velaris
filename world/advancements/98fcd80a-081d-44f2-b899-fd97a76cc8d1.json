@@ -891,12 +891,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chain": {
-    "criteria": {
-      "has_iron_ingot": "2025-02-21 19:57:11 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2025-02-21 19:57:11 +0000"
@@ -3123,5 +3117,11 @@
     },
     "done": true
   },
-  "DataVersion": 4325
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_string": "2025-10-23 13:10:42 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 4556
 }
