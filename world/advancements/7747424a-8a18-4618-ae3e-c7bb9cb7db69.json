@@ -591,12 +591,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chain": {
-    "criteria": {
-      "has_iron_ingot": "2025-02-18 18:52:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_sword": "2025-02-18 18:52:14 +0000"
@@ -1044,14 +1038,17 @@
       "minecraft:pillager": "2025-02-23 00:54:26 +0000",
       "minecraft:skeleton": "2025-02-18 21:16:53 +0000",
       "minecraft:elder_guardian": "2025-03-11 03:32:37 +0000",
+      "minecraft:parched": "2026-01-17 02:33:42 +0000",
       "minecraft:ravager": "2025-05-23 01:18:22 +0000",
       "minecraft:bogged": "2025-02-26 03:45:07 +0000",
       "minecraft:ghast": "2025-02-20 19:09:54 +0000",
       "minecraft:hoglin": "2025-02-20 02:10:07 +0000",
+      "minecraft:camel_husk": "2026-01-16 22:18:12 +0000",
       "minecraft:guardian": "2025-03-11 03:14:27 +0000",
       "minecraft:creaking": "2025-03-11 16:05:15 +0000",
       "minecraft:breeze": "2025-04-05 00:30:29 +0000",
       "minecraft:vindicator": "2025-05-23 01:16:49 +0000",
+      "minecraft:zombie_horse": "2026-01-17 03:46:43 +0000",
       "minecraft:magma_cube": "2025-02-20 01:52:23 +0000",
       "minecraft:spider": "2025-02-18 20:40:12 +0000",
       "minecraft:piglin_brute": "2025-03-09 15:32:04 +0000",
@@ -6155,12 +6152,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_copper_bulb_from_honeycomb": {
-    "criteria": {
-      "has_copper_bulb": "2025-04-13 02:17:53 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/wax_on": {
     "criteria": {
       "wax_on": "2025-04-13 02:23:20 +0000"
@@ -6833,5 +6824,179 @@
     },
     "done": true
   },
-  "DataVersion": 4440
+  "minecraft:recipes/decorations/iron_chain": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-27 01:06:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/copper_chain": {
+    "criteria": {
+      "has_copper_ingot": "2026-01-14 22:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/copper_chestplate": {
+    "criteria": {
+      "has_copper_ingot": "2026-01-14 22:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/copper_sword": {
+    "criteria": {
+      "has_copper_ingot": "2026-01-14 22:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/copper_leggings": {
+    "criteria": {
+      "has_copper_ingot": "2026-01-14 22:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_nugget": {
+    "criteria": {
+      "has_copper_ingot": "2026-01-14 22:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/copper_helmet": {
+    "criteria": {
+      "has_copper_ingot": "2026-01-14 22:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/copper_boots": {
+    "criteria": {
+      "has_copper_ingot": "2026-01-14 22:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/copper_shovel": {
+    "criteria": {
+      "has_copper_ingot": "2026-01-14 22:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/copper_pickaxe": {
+    "criteria": {
+      "has_copper_ingot": "2026-01-14 22:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/copper_axe": {
+    "criteria": {
+      "has_copper_ingot": "2026-01-14 22:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/copper_bars": {
+    "criteria": {
+      "has_copper_ingot": "2026-01-14 22:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/copper_hoe": {
+    "criteria": {
+      "has_copper_ingot": "2026-01-14 22:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/copper_spear": {
+    "criteria": {
+      "has_copper_ingot": "2026-01-14 22:30:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_spear": {
+    "criteria": {
+      "has_cobblestone": "2026-01-14 22:36:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_spear": {
+    "criteria": {
+      "has_iron_ingot": "2026-01-14 22:41:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_spear": {
+    "criteria": {
+      "has_stick": "2026-01-15 02:11:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_exposed_copper_chest_from_honeycomb": {
+    "criteria": {
+      "has_exposed_copper_chest": "2026-01-16 00:32:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_spear": {
+    "criteria": {
+      "has_gold_ingot": "2026-01-16 19:46:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2026-01-16 21:46:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_nugget_from_smelting": {
+    "criteria": {
+      "has_copper_horse_armor": "2026-01-17 02:57:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_nugget_from_blasting": {
+    "criteria": {
+      "has_copper_horse_armor": "2026-01-17 02:57:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-01-17 02:58:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template": {
+    "criteria": {
+      "has_dune_armor_trim_smithing_template": "2026-01-17 02:58:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_spear": {
+    "criteria": {
+      "has_diamond": "2026-01-17 21:57:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_nautilus_armor_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-01-17 21:57:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_horse_armor_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-01-17 21:57:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_spear_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2026-01-17 21:57:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2026-01-18 00:41:55 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
 }
